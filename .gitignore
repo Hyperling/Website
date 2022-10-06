@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+## Above is Github's recommendations for Node.js. Below are my additions. ##
+package-lock.json
