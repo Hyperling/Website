@@ -1,4 +1,4 @@
-#!/bin/php
+
 
 <!DOCTYPE html>
 <html>
