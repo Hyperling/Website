@@ -4,9 +4,10 @@
 	include "helpers/body_open.php";
 ?>
 
-		<h1> Welcome! </h1>
-			
-		<p> This is a test. It can be ignored. :) </p>
+		<h1>Welcome!</h1>
+		<p> 
+			Website is still in testing. Don't judge too harshly. :)
+		</p>
 
 <?php
 	include "helpers/section_open.php";

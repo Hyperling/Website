@@ -1,6 +1,6 @@
-		<h1> My Public Programs </h1>
+		<h2> My Public Programs </h2>
 
-		<h2> Android Apps </h2>
+		<h3> Android Apps </h3>
 		<div class="wp-container-3 wp-block-columns alignwide">
 		<div class="wp-container-1 wp-block-column">
 		<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://play.google.com/store/apps/details?id=com.hyperling.carbupbeta" target="_blank" rel="noopener noreferrer"><img width="512" height="512" src="https://www.hyperling.com/wp-content/uploads/2020/09/ctfu.png" alt="ctfu" class="wp-image-13" srcset="https://www.hyperling.com/wp-content/uploads/2020/09/ctfu.png 512w, https://www.hyperling.com/wp-content/uploads/2020/09/ctfu-300x300.png 300w, https://www.hyperling.com/wp-content/uploads/2020/09/ctfu-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" /><figcaption>Carb Up! BETA</a>
@@ -16,7 +16,7 @@
 
 		<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule" target="_blank" rel="noopener noreferrer"><img loading="lazy" width="512" height="512" src="https://www.hyperling.com/wp-content/uploads/2020/09/t45mr.png" alt="45minuterule" class="wp-image-12" srcset="https://www.hyperling.com/wp-content/uploads/2020/09/t45mr.png 512w, https://www.hyperling.com/wp-content/uploads/2020/09/t45mr-300x300.png 300w, https://www.hyperling.com/wp-content/uploads/2020/09/t45mr-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" /><figcaption>45 Minute Rule</a> 
 		<br>
-		<p>Determine when to go to bed if you&#8217;d like to wake up during light sleep.</p>
+		<p>Determine when to go to bed if you'd like to wake up during light sleep.</p>
 		[<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule" target="_blank" rel="noopener noreferrer">Play Store</a>]
 		[<a href="https://files.hyperling.com/apks/45MinuteRule.apk">APK</a>]
 		<p>TBD:
@@ -51,7 +51,7 @@
 					HyperGames [IN DEVELOPMENT]</a> 
 					<br>
 					<p>
-						Began developing some games for fun. Not near a finished state, but &#8220;playable&#8221;.
+						Began developing some games for fun. Not near a finished state, but "playable".
 					</p>
 					[<a href="https://play.google.com/store/apps/details?id=apps.hyperling.com.platformer" 
 					target="_blank" rel="noopener noreferrer">Play Store
@@ -65,7 +65,7 @@
 			</figure>
 		</div>
 
-		<h2> Other Programs </h2>
+		<h3> Other Programs </h3>
 		<p> 
 			For a full list of my programs including my Ansible automation,
 			Docker setup, source code for this website, and fun-type projects 
