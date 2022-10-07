@@ -1,7 +1,7 @@
 
 
 		<ul>
-			<li><a href="https://hyperling.com">Home</a></li>
-			<li><a href="https://hyperling.com/about/">About</a></li>
-			<li><a href="https://hyperling.com/support/">Support</a></li>
+			<li><a href="/home/">Home</a></li>
+			<li><a href="/about/">About</a></li>
+			<li><a href="/support/">Support</a></li>
 		</ul>
