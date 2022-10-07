@@ -30,5 +30,5 @@ Add Favicon
 	- [https://www.geeksforgeeks.org/what-is-the-use-of-serve-favicon-from-node-js-server/]
 
 ## Inspiration
-[https://liquorix.net/]
-[https://cahlen.org/]
+- [https://liquorix.net/]
+- [https://cahlen.org/]
