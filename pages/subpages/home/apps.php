@@ -1,3 +1,4 @@
+#!/usr/bin/php
 		<h2> My Public Programs </h2>
 
 		<h3> Android Apps </h3>

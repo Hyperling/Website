@@ -40,3 +40,18 @@
   clear: both;
   display: table;
 }
+
+/* MyStuff ***/
+/** Dark Theme **/
+body {
+  background-color: #333333;
+}
+* {
+  color: #CCCCCC;
+}
+a {
+  color: #FF9900
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #6633FF
+}

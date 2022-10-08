@@ -1,81 +1,105 @@
 #!/usr/bin/node
 'use strict';
-
 /*
-2022-09-14 Mockup of what a web server may look like.
-Should serve very quick since it's all from scratch, nothing to load like WordPress. 
-May even skip out on things like 
+	2022-09-14 Hyperling
+	Coding my own website rather than using WordPress or anything bloaty.
 */
 
-const app_name = "www.example.com";
+//// Libraries ////
+
 let express = require('express');
 let app = express();
 
 const execSync = require('child_process').execSync;
 
-let pages = {};
-pages.home = require('./pages/home.js');
-//pages.notice = require('./pages/notice.js');
+const fs = require('fs');
 
-let pages_php = {};
-pages.home = './pages/home.php';
-//pages.notice = './pages/notice.php';
+//// Global Variables ////
 
-// Even better, look through ./pages/ for *.php or *.js and add them to the array!
+const DEBUG = false;
+
+const app_name = "hyperling.com";
+
+let pages = [];
+const pages_dir = "./pages/";
+const file_types = ["php", "sh"];
 
 let ports = [];
 ports.push(8080);
 
-async function main() {
-	console.log("Starting Main");
+//// Functions ////
 
+async function main() {
+	console.log("...Starting Main...");
+
+	console.log("Set app to return HTML documents.");
 	app.use(function (req, res, next) {
 		res.contentType('text/html');
 		next();
 	});
 
-	console.log("Adding Routes");
+	/* Loop through all file in the pages subdirectory and add the allowed
+	// file types into the pages array for automatic router creation.
+	*/
+	console.log("...Starting Main...");
+	let ls = await fs.promises.readdir(pages_dir);
+	if (DEBUG) console.log("DEBUG:  Results of ls, ", ls);
+	for (let file of ls) {
+		let file_test = file.split(".");
+		let file_name = file_test[0];
+		let file_type = file_test[file_test.length - 1];
+		if (file_types.includes(file_type)) {
+			if (DEBUG) console.log("DEBUG:  Hooray!", file, "is being added.");
+			pages[file_name] = pages_dir + file;
+			console.log(" * Added page", file);
+		} else {
+			if (DEBUG) console.log("DEBUG: ", file, "is not an approved type, skipping.");
+		}
+	}
+	console.log(" * Pages loaded: ", pages);
+	//return; // Stop execution FORTESTING
+
+	console.log("...Adding Routes...");
 	let router = express.Router();
-/* MANUAL METHOD, SPECIFY EVERY PATH+FILE
-	router.get('/', function (req, res) {
-		console.log("Fetching");
-		require('lib/home.js'); // one way, maybe?
-	});
-	router.get('/notice', function (req, res) {
-		pages.notice(req, res); // another way?
-	});
-*/
-/* AUTOMATIC METHOD BASED ON OBJECT/ARRAY
-	for page in pages { // FORTESTING pseudocode
-		router.get("/" + page.key, function (req,res) {
-			page.value(req, res);
+
+	/* AUTOMATIC METHOD BASED ON OBJECT/ARRAY OF PHP scripts 
+	// Creates routes with the URL of the key and location of the value.
+	*/
+	for (let key in pages) {
+		console.log(" * Creating router for", key);
+		router.get("/" + key, function (req,res) {
+			console.log(key, "fulfilling request to", req.socket.remoteAddress, "asking for", req.url)
+			res.send(execSync(pages[key]));
 		});
 	}
-*/
-/* AUTOMATIC METHOD BASED ON OBJECT/ARRAY OF PHP scripts
-	for page in pages { // FORTESTING pseudocode
-		router.get("/" + page.key, function (req,res) {
-			res.send(system("php page.value"));
-		});
-	}
-*/
-	// Test (Also a decent catch-all to Home!)
+
+	// Provide css.
+	router.get('/main.css', function (req, res) {
+		console.log("css being provided to", req.socket.remoteAddress)
+		let html = execSync("cat ./pages/main.css");
+		res.send(html);
+	});
+
+	// Originally a test, now a catch-all redirection to Home!
 	router.get('/*', function (req, res) {
+		// WARNING: These are huge so only look when you need to.
 		//console.log(req);
 		//console.log(res);
-		console.log(req.socket.remoteAddress, "asked for", req.url)
-		let html = execSync("php ./pages/home.php");
+		console.log("*wildcard* replying to", req.socket.remoteAddress, "asking for", req.url)
+		let html = execSync("./pages/home.php");
 		res.send(html);
 	});
 
 	app.use('', router);
 
-	console.log("Adding Ports");
+	console.log("...Adding Ports...");
 	ports.forEach(port => {
 		app.listen(port);
 		console.log(" * Now listening on port " + port + ".");
 	});
 	console.log("Done! Now we wait...");
 }
+
+//// Program Execution ////
 
 main();
