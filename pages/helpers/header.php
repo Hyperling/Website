@@ -13,4 +13,7 @@
 		<style>
 			<?php include "main.css"; ?>
 		</style>
+		<style>
+			<?php include "dark.css"; ?>
+		</style>
 	</head>

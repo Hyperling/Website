@@ -1,0 +1,30 @@
+/*** MyStuff ***/
+/** Dark Theme **/
+body {
+  background-color: #444444;
+}
+
+* {
+  color: #CCCCCC;
+}
+
+a {
+  color: #FF9900
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #6633FF;
+}
+
+.header {
+  /*background-color: #113311;*/
+  background-color: #222222;
+}
+
+.title {
+  background-color: #111111;
+}
+
+.text {
+  background-color: #333333;
+}

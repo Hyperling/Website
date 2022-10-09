@@ -1,21 +1,13 @@
 /* 2022-09-14 CSS for the website. */
 /* https://www.w3schools.com/Css/css_rwd_grid.asp */
 
-/* Enable dynamic stuffs */
+/* Enable dynamic stuffs, maks the element think its entire size includes padding. */
 * {
   box-sizing: border-box;
 }
 
-/* Page Sections */
-.menu {
-  width: 25%;
-  float: left;
-}
-.main {
-  width: 75%;
-  float: left;
-}
-
+/*** Page Sections ***/
+/** Page with 12 columns **/
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -32,26 +24,27 @@
 [class*="col-"] {
   float: left;
   padding: 15px;
-  border: 1px solid red;
+  /*border: 1px solid green;*/ /* FORTESTING otherwise disable */
 }
 
+/* Ensure columns are respected as if they always exist. */
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* MyStuff ***/
-/** Dark Theme **/
-body {
-  background-color: #333333;
+/** Make the menu items centered and layout horizontal. **/
+.menu-list {
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0px;
 }
-* {
-  color: #CCCCCC;
+
+.menu_item {
+  display: inline-block;
 }
-a {
-  color: #FF9900
-}
-h1,h2,h3,h4,h5,h6 {
-  color: #6633FF
+
+.center {
+  text-align: center;
 }
