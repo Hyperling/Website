@@ -31,5 +31,8 @@ Add Favicon
 
 ## Inspiration
 - [https://liquorix.net/]
+  - The linux-zen kernel, a really great one if you're running FOSS OS's!
 - [https://cahlen.org/]
+  - Also has really interesting and important content, it is highly recommended.
 - [https://merkinvineyardsosteria.com/]
+  - A winery website for MJ Keenan.

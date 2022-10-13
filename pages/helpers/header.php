@@ -9,11 +9,14 @@
 		<link rel="icon" sizes="192x192"
 			href="https://www.hyperling.com/wp-content/uploads/2020/09/favicon.ico" 
 		/>
-		<!--<link rel="stylesheet" href="/main.css">-->
+		<!-- CSS -->
 		<style>
 			<?php include "main.css"; ?>
 		</style>
 		<style>
 			<?php include "dark.css"; ?>
+		</style>
+		<style>
+			<?php include "banner.css"; ?>
 		</style>
 	</head>

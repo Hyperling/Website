@@ -3,7 +3,7 @@
 
 /* Enable dynamic stuffs, maks the element think its entire size includes padding. */
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /*** Page Sections ***/
@@ -22,29 +22,29 @@
 .col-12 {width: 100%;}
 
 [class*="col-"] {
-  float: left;
-  padding: 15px;
-  /*border: 1px solid green;*/ /* FORTESTING otherwise disable */
+	float: left;
+	padding: 15px;
+	/*border: 1px solid green;*/ /* FORTESTING otherwise disable */
 }
 
 /* Ensure columns are respected as if they always exist. */
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+	content: "";
+	clear: both;
+	display: table;
 }
 
 /** Make the menu items centered and layout horizontal. **/
 .menu-list {
-  text-align: center;
-  list-style-type: none;
-  padding-left: 0px;
+	text-align: center;
+	list-style-type: none;
+	padding-left: 0px;
 }
 
 .menu_item {
-  display: inline-block;
+	display: inline-block;
 }
 
 .center {
-  text-align: center;
+	text-align: center;
 }

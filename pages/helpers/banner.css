@@ -1,0 +1,23 @@
+/*** Logo In Header ***/
+
+/* Shared Attributes */
+.banner-top, .banner-middle, .banner-bottom {
+	color: white; 
+	width: 100%; 
+	height: 69px; 
+	font-size: 50px; 
+	text-align: center;
+}
+
+/* Specific Attributes */
+.banner-top {
+	background-color: #6633FF; 
+}
+
+.banner-middle {
+	background-color: #FF9900; 
+}
+
+.banner-bottom {
+	background-color: #339933; 
+}
