@@ -17,7 +17,9 @@ All content is formatted so that the page source is readible.
 The install script is currently only set up for apt, and the package names only tested on Ubuntu. 
 
 `git clone https://github.com/Hyperling/www www`
+
 `cd www`
+
 `./run.sh`
 
 Then in a web browser, navigate to `your_machines_ip_address:8080`.
