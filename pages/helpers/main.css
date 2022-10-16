@@ -1,50 +1,84 @@
-/* 2022-09-14 CSS for the website. */
-/* https://www.w3schools.com/Css/css_rwd_grid.asp */
+/*** 2022-09-14 CSS for the website. ***/
+			/* https://www.w3schools.com/Css/css_rwd_grid.asp */
 
-/* Enable dynamic stuffs, maks the element think its entire size includes padding. */
-* {
-	box-sizing: border-box;
-}
+			/* Enable dynamic stuffs, maks the element think its entire size includes padding. */
+			* {
+				box-sizing: border-box;
+			}
 
-/*** Page Sections ***/
-/** Page with 12 columns **/
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+			/*** Page Sections ***/
+			/** Page with 12 columns **/
+			.col-1 {width: 8.33%;}
+			.col-2 {width: 16.66%;}
+			.col-3 {width: 25%;}
+			.col-4 {width: 33.33%;}
+			.col-5 {width: 41.66%;}
+			.col-6 {width: 50%;}
+			.col-7 {width: 58.33%;}
+			.col-8 {width: 66.66%;}
+			.col-9 {width: 75%;}
+			.col-10 {width: 83.33%;}
+			.col-11 {width: 91.66%;}
+			.col-12 {width: 100%;}
 
-[class*="col-"] {
-	float: left;
-	padding: 15px;
-	/*border: 1px solid green;*/ /* FORTESTING otherwise disable */
-}
+			[class*="col-"] {
+				float: left;
+				padding: 15px;
+				/*border: 1px solid green;*/ /* FORTESTING otherwise disable */
+			}
 
-/* Ensure columns are respected as if they always exist. */
-.row::after {
-	content: "";
-	clear: both;
-	display: table;
-}
+			/* Ensure columns are respected as if they always exist. */
+			.row::after {
+				content: "";
+				clear: both;
+				display: table;
+			}
 
-/** Make the menu items centered and layout horizontal. **/
-.menu-list {
-	text-align: center;
-	list-style-type: none;
-	padding-left: 0px;
-}
+			/** Make the menu items centered and layout horizontal. **/
+			.menu-list {
+				text-align: center;
+				list-style-type: none;
+				padding-left: 0px;
+			}
+			.menu_item {
+				display: inline-block;
+			}
 
-.menu_item {
-	display: inline-block;
-}
+			/** Be able to position anything easily. **/
+			.center {
+				text-align: center;
+			}
+			.left {
+				text-align: start;
+			}
+			.right {
+				text-align: end;
+			}
 
-.center {
-	text-align: center;
-}
+			/** Use ul to create an indent but without the bullet point. **/
+			.indent {
+				list-style-type: none;
+			}
+
+			/** Objects which need borders **/
+			.border {
+				border: 1px solid #339933;
+			}
+
+			/* Also have this apply to a table's cells. */
+			.border * th,td {
+				border: 1px solid #339933;
+			}
+
+			/** Format tables and allow contents to be broken up. **/
+			table {
+				/*width: 100%;*/
+				border-collapse: collapse;
+				/*table-layout: fixed;*/
+			}
+			table * th,td {
+				word-wrap: break-word;
+				overflow-wrap: break-word;
+				/*max-width: 1px;*/
+				padding: 7px;
+			}

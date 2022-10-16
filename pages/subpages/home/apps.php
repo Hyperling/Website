@@ -2,7 +2,7 @@
 		<div class="row">
 			<h2 class="col-12 header">My Public Programs</h2>
 			<p class="col-12 text">
-				I write free software! Please feel welcome to browse anything I have created.
+				I write free software! Please feel welcome to browse and use anything I have created.
 			</p>
 		</div>
 
@@ -54,7 +54,8 @@
 							Determine when to go to bed if you'd like to wake up during light sleep.
 						</p>
 						<p>
-							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule" target="_blank" rel="noopener noreferrer">Play Store</a>]
+							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule" 
+								target="_blank" rel="noopener noreferrer">Play Store</a>]
 							[<a href="https://files.hyperling.com/apks/45MinuteRule.apk">APK</a>]
 						</p>
 						<p>
@@ -83,7 +84,8 @@
 							Play your notification sound at your chosen Hour:Minute:Second interval.
 						</p>
 						<p>
-							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.infinitetimer" target="_blank" rel="noopener noreferrer">Play Store</a>]
+							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.infinitetimer"
+								target="_blank" rel="noopener noreferrer">Play Store</a>]
 							[<a href="https://files.hyperling.com/apks/InfiniteTimer.apk">APK</a>]
 						</p>
 						<p>
@@ -115,8 +117,7 @@
 						</p>
 						<p>
 							[<a href="https://play.google.com/store/apps/details?id=apps.hyperling.com.platformer" 
-								target="_blank" rel="noopener noreferrer">Play Store
-							</a>]
+								target="_blank" rel="noopener noreferrer">Play Store</a>]
 							[<a href="https://files.hyperling.com/apks/HyperGames.apk">APK</a>]
 						</p>
 						<p>
@@ -136,9 +137,9 @@
 		</div>
 		<div class="row">
 			<p class="col-12 text"> 
-				For a full list of my programs including my Ansible automation,
+				For a full list of programs including my Ansible automation,
 				Docker setup, source code for this website, and fun projects 
 				like an obfuscating editor and music fixer, check out 
-				<a href="https://github.com/hyperling" target="_blank">my Github</a>.
+				<a href="https://github.com/Hyperling" target="_blank">my Github</a>.
 			</p>
 		</div>

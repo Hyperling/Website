@@ -28,4 +28,4 @@ npm install
 ./main.js
 ###
 
-exit 0
+exit $?

@@ -1,4 +1,5 @@
 # My Website
+
 Custom website rather than using WordPress or anything else that handles the code for you.
 
 Rather than using apache or nginx just using Node.js to serve an HTML API. Gives more control.
@@ -9,27 +10,29 @@ Basically a "page" is just a program that echo's HTML content for the API.
 
 Will likely play with some pages being Bash and other fun things.
 
-## TODO
-Finish CSS
+All content is formatted so that the page source is readible.
 
-Add Current Content
-- APPS
-- VIDEOS
-- DONATE
-- VIDEOS
+# How To Run
+
+The install script is currently only set up for apt, and the package names only tested on Ubuntu. 
+
+`git clone https://github.com/Hyperling/www www`
+`cd www`
+`./run.sh`
+
+Then in a web browser, navigate to `your_machines_ip_address:8080`.
+
+## TODO
 
 Add New Content
 - NOTICE
 - HEALTH (My Priorities Sheet)
 	- How to host files? Put them in reverse-proxy's files.hyperling.com site?
-- GIFTS
-
-Add Favicon
-[https://www.metatags.org/seo-tips/design-tips/favicon-ico/]
-- Will this have to be in files.hyperling.com as well? Or will this work?
-	- [https://www.geeksforgeeks.org/what-is-the-use-of-serve-favicon-from-node-js-server/]
+- STANCE
+- JOURNEY
 
 ## Inspiration
+
 - [https://liquorix.net/]
   - The linux-zen kernel, a really great one if you're running FOSS OS's!
 - [https://cahlen.org/]

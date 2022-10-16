@@ -1,12 +1,14 @@
 #!/usr/bin/php
 		<div class="row" id="health">
 			<h2 class="col-12 header">My Health Protocol</h2>
+		</div>
+		<div class="row">
 			<div class="col-12 text">
 				<p>
 					I have not been sick since I cleaned up my lifestyle in 2014. No colds, 
 					flus, fevers, etc. My suggestions for accomplishing this are simple. 
 					Consistently: 
-					<ul>
+					<ul class="indent">
 						<li>eat enough clean food,</li>
 						<li>drink enough clean water,</li>
 						<li>get enough good sleep, and</li>
@@ -34,6 +36,7 @@
 					been reversing sickness for decades and their plans follow a similar 
 					whole food carb-based lifestyle such as my own, with NO OIL!
 				</p>
+				<!-- Need to rewrite or remove this to be more positive. 
 				<p> 
 					Even though I run the brand HyperVegan, I am like the doctors and do 
 					not have a strict adherence to the cultism of "veganism". Yes, when I 
@@ -46,6 +49,7 @@
 					I am still friendly with statists. The banner at the top of the page 
 					is not just for decoration, I truly believe in those values. ;)
 				</p>
+				-->
 				<p> 
 					For more information on my specifics and why I came to this lifestyle please visit
 					<a href="/journey/">My Journey</a>.
