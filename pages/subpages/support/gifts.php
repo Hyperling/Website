@@ -1,6 +1,6 @@
 #!/usr/bin/php
 		<!-- Gift ideas such as dried fruit, teas, etc. -->
-		<div class="row" id="donate">
+		<div class="row" id="gifts">
 			<h2 class="col-12 header">Gifts</h2>
 		</div>
 		<div class="row">

@@ -1,17 +1,17 @@
 #!/usr/bin/php
-		<div class="row">
+		<div class="row" id="programs">
 			<h2 class="col-12 header">My Public Programs</h2>
 			<p class="col-12 text">
 				I write free software! Please feel welcome to browse and use anything I have created.
 			</p>
 		</div>
 
-		<div class="row">
+		<div class="row" id="android">
 			<h3 class="col-12 header">Android Apps</h3>
 		</div>
 
 		<div class="row text center">
-			<div class="col-6">
+			<div class="col-6" id="ctfu">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.carbupbeta" 
 						target="_blank" rel="noopener noreferrer">
@@ -40,7 +40,7 @@
 				</figure>
 			</div>
 
-			<div class="col-6">
+			<div class="col-6" id="sleep">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule" 
 						target="_blank" rel="noopener noreferrer">
@@ -69,7 +69,7 @@
 				</figure>
 			</div>
 			
-			<div class="col-6">
+			<div class="col-6" id="timer">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.infinitetimer" 
 						target="_blank" rel="noopener noreferrer"
@@ -99,7 +99,7 @@
 				</figure>
 			</div>
 
-			<div class="col-6">
+			<div class="col-6" id="games">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=apps.hyperling.com.platformer" 
 						target="_blank" rel="noopener noreferrer"
@@ -132,14 +132,14 @@
 			</div>
 		</div>
 
-		<div class="row">
-			<h3 class="col-12 header"> Other Programs </h3>
+		<div class="row" id="other">
+			<h3 class="col-12 header">Other Programs</h3>
 		</div>
 		<div class="row">
 			<p class="col-12 text"> 
 				For a full list of programs including my Ansible automation,
 				Docker setup, source code for this website, and fun projects 
 				like an obfuscating editor and music fixer, check out 
-				<a href="https://github.com/Hyperling" target="_blank">my Github</a>.
+				<a href="https://github.com/Hyperling" target="_blank">My Github</a>.
 			</p>
 		</div>
