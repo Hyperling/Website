@@ -26,17 +26,31 @@
 					Forest system. This comes with other outdoor interests such as hiking, 
 					camping, backpacking, foraging, and traveling. 
 				</p>
-				<!-- Need to rewrite or remove this to be more positive. 
-				<p>	
-					For all of my life I have resided in Indiana, USA, but in Spring 2023 I 
-					am making a big leap and heading to the southwest, most likely Arizona
-					or Colorado. The humidity in the midwest is miserable and the terrain
-					is flat and boring. There are all sorts of insect pests and the ground
-					is so fertile that yard grass takes over a garden in a jiffy. I look 
-					forward to the challenge of growing food in the new climate, but also
-					plan to reduce costs by living outdoors. Home ownership isn't for me.
+				<!--
+				<p>
+					Currently I reside in the US state of Indiana and am working to move 
+					to the southwest, starting in Arizona. Colorado and Mexico will likely 
+					be explored. New Mexico and other locations will be visited as well 
+					but have not yet revealed areas which offer exactly what I'm looking 
+					for.
 				</p>
-				-->
+				--> 
+				<p>	
+					Currently I reside in the US state of Indiana and am working to move
+					to the southwest for the following reasons:
+				</p>
+				<ul>
+					<li>Dry Heat</li>
+					<li>Mountains</li>
+					<li>Lack of Bugs</li>
+					<li>Cactus and Spruce</li>
+				</ul>
+				<p>
+					The search will begin in Arizona. Colorado and Mexico will likely
+					be explored. New Mexico and other locations will be visited as well 
+					but have not yet revealed areas which offer exactly what I'm looking 
+					for.
+				</p>
 			</div>	
 		</div>
 
