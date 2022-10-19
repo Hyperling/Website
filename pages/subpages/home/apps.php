@@ -11,7 +11,7 @@
 		</div>
 
 		<div class="row text center">
-			<div class="col-3">
+			<div class="col-6">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.carbupbeta" 
 						target="_blank" rel="noopener noreferrer">
@@ -40,7 +40,7 @@
 				</figure>
 			</div>
 
-			<div class="col-3">
+			<div class="col-6">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule" 
 						target="_blank" rel="noopener noreferrer">
@@ -69,7 +69,7 @@
 				</figure>
 			</div>
 			
-			<div class="col-3">
+			<div class="col-6">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.infinitetimer" 
 						target="_blank" rel="noopener noreferrer"
@@ -99,7 +99,7 @@
 				</figure>
 			</div>
 
-			<div class="col-3">
+			<div class="col-6">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=apps.hyperling.com.platformer" 
 						target="_blank" rel="noopener noreferrer"

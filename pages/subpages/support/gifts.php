@@ -28,6 +28,11 @@
 					>
 						Long Grain White Rice</a> (if jasmine is still out of stock)
 					</li>
+					<li><a href="https://foodtolive.com/shop/organic-green-lentils/"
+						target="_blank" rel="noopener noreferrer"
+					>
+						Lentils</a> (prefer green or brown)
+					</li>
 					<li><a href="https://foodtolive.com/shop/organic-tri-color-quinoa/"
 						target="_blank" rel="noopener noreferrer"
 					>

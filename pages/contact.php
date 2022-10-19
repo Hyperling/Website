@@ -4,7 +4,7 @@
 ?>
 
 		<div class="row">
-			<h2 class="col-12 title">Contact Me</h2>
+			<h1 class="col-12 title">Contact Me</h1>
 		</div>
 		<div class="row">
 			<div class="col-12 text">

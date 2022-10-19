@@ -29,8 +29,14 @@ ports.push(8080);
 
 //// Functions ////
 
+/* Code exists inside a main function so that we may use async/await.
+*/
 async function main() {
 	console.log("...Starting Main...");
+
+	// Getting dates in Node.js is awful, just use Linux.
+	const start_datetime = "" + await execSync('date "+%Y-%m-%dT%H:%M:%S%:z"');
+	const start_datetime_trimmed = start_datetime.trim();
 
 	console.log("Set app to return HTML documents.");
 	app.use(function (req, res, next) {
@@ -59,28 +65,113 @@ async function main() {
 	console.log(" * Pages loaded: ", pages);
 	//return; // Stop execution FORTESTING
 
+	/* Create both an XML and HTML sitemap based on these entries. XML is used for
+	// bots like SEO scrapers. HTML will be for human users looking for a list of
+	// all pages. Some are not in the menu. Generated an example XML sitemap at
+	// www.xml-sitemaps.com then stripped it apart and made it dynamic.
+	*/
+	let sitemap_xml = `<?xml version="1.0" encoding="UTF-8"?>
+		<urlset
+			xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+					http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+		>
+			<url>
+				<loc>https://hyperling.com/</loc>
+				<lastmod>`+start_datetime_trimmed+`</lastmod>
+				<priority>1.00</priority>
+			</url>
+			<url>
+				<loc>https://hyperling.com/sitemap/</loc>
+				<lastmod>`+start_datetime_trimmed+`</lastmod>
+				<priority>0.80</priority>
+			</url>
+	`;
+	let sitemap_html = `
+		<html><body>
+			<strong>Special Pages</strong>
+			<ul>
+				<li>
+					<b>Main Site</b>
+					(<a href="/">Local</a>)
+					(<a href="https://`+app_name+`/">Hardlink</a>)
+				</li>
+				<li>
+					<b>XML Site Map</b>
+					(<a href="/sitemap.xml">Local</a>)
+					(<a href="https://`+app_name+`/sitemap.xml">Hardlink</a>)
+				</li>
+				<li>
+					<b>HTML Site Map</b>
+					(<a href="/sitemap/">Local</a>)
+					(<a href="https://`+app_name+`/sitemap/">Hardlink</a>)
+					<i>[You are here!]</i>
+				</li>
+			</ul>
+			<strong>Web Pages (Alphabetical)</strong>
+			<ul>
+	`;
+
 	console.log("...Adding Routes...");
 	let router = express.Router();
 
-	/* AUTOMATIC METHOD BASED ON OBJECT/ARRAY OF PHP scripts 
+	/* AUTOMATIC METHOD BASED ON OBJECT/ARRAY OF WEB SCRIPTS 
 	// Creates routes with the URL of the key and location of the value.
 	*/
 	for (let key in pages) {
 		console.log(" * Creating router for", key);
 		router.get("/" + key, function (req,res) {
 			console.log(key, "fulfilling request to", req.socket.remoteAddress, "asking for", req.url)
-			res.send(execSync(pages[key]));
+			res.send("" + execSync(pages[key]));
 		});
+
+		/* Append the page to the sitemap variables.
+		*/
+		console.log(" * * Adding to sitemap.xml");
+		sitemap_xml = sitemap_xml + `
+				<url>
+					<loc>https://hyperling.com/`+key+`/</loc>
+					<lastmod>`+start_datetime_trimmed+`</lastmod>
+					<priority>0.80</priority>
+				</url>
+		`;
+		console.log(" * * Adding to sitemap.html");
+		sitemap_html = sitemap_html + `
+				<li>
+					<b>`+key+`</b>
+					(<a href="/`+key+`/">Local</a>)
+					(<a href="https://`+app_name+`/`+key+`/">Hardlink</a>)
+				</li>
+		`;
 	}
 
-	// Provide css.
-	router.get('/main.css', function (req, res) {
-		console.log("css being provided to", req.socket.remoteAddress)
-		let html = execSync("cat ./pages/main.css");
-		res.send(html);
+	/* Close the sitemap variables
+	*/
+	sitemap_xml = sitemap_xml + `
+		</urlset>
+	`;
+	sitemap_html = sitemap_html + `
+		</ul></body></html>
+	`;
+
+	// Provide sitemap.xml file for "SEO".
+	console.log(" * Creating router for sitemap.xml");
+	router.get('/sitemap.xml', function (req, res) {
+		console.log("sitemap.xml being provided to", req.socket.remoteAddress)
+		res.contentType('text/xml');
+		res.send(sitemap_xml);
+	});
+
+	// Provide human-usable sitemap links.
+	console.log(" * Creating router for sitemap*");
+	router.get('/sitemap*', function (req, res) {
+		console.log("sitemap.html being provided to", req.socket.remoteAddress)
+		res.send(sitemap_html);
 	});
 
 	// Originally a test, now a catch-all redirection to Home!
+	console.log(" * Creating router for redirection");
 	router.get('/*', function (req, res) {
 		// WARNING: These are huge so only look when you need to.
 		//console.log(req);

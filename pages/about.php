@@ -36,20 +36,19 @@
 				</p>
 				--> 
 				<p>	
-					Currently I reside in the US state of Indiana and am working to move
+					As of 2022 I reside in the US state of Indiana and am working to move
 					to the southwest for the following reasons:
 				</p>
 				<ul>
-					<li>Dry Heat</li>
+					<li>Dry Climate</li>
 					<li>Mountains</li>
 					<li>Lack of Bugs</li>
-					<li>Cactus and Spruce</li>
+					<li>Permaculture Possibilities</li>
+					<li>Native Cactus and/or Spruce</li>
 				</ul>
 				<p>
 					The search will begin in Arizona. Colorado and Mexico will likely
-					be explored. New Mexico and other locations will be visited as well 
-					but have not yet revealed areas which offer exactly what I'm looking 
-					for.
+					be explored. New Mexico and other locations will be visited as well.
 				</p>
 			</div>	
 		</div>
