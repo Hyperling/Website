@@ -19,9 +19,7 @@ cat << EOF
 EOF
 
 # Any subpages
-###./helpers/section_open.php
 ###./subpages/journey/???
-###./helpers/section_close.php
 
 # Finish the web page
 ./helpers/body_close.php

@@ -20,12 +20,10 @@ cat << EOF
 EOF
 
 # Create a subsection
-./helpers/section_open.php
 echo -e "\t\t<h2>Server Neofetch</h2>"
 echo -e "\t\t<p>"
 neofetch --stdout
 echo -e "\t\t</p>"
-./helpers/section_close.php
 
 # Finish the web page
 ./helpers/body_close.php

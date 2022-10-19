@@ -24,9 +24,7 @@
 			</div>
 
 <?php
-	include "helpers/section_open.php";
 	include "subpages/home/apps.php";
-	include "helpers/section_close.php";
 
 	include "helpers/body_close.php";
 ?>

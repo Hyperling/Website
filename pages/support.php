@@ -20,13 +20,8 @@
 		</div>
 
 <?php
-	include "helpers/section_open.php";
 	include "subpages/support/gifts.php";
-	include "helpers/section_close.php";
-
-	include "helpers/section_open.php";
 	include "subpages/support/donate.php";
-	include "helpers/section_close.php";
 
 	include "helpers/body_close.php";
 ?>
