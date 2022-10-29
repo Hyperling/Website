@@ -26,10 +26,7 @@ Then in a web browser, navigate to `your_machines_ip_address:8080`.
 
 ## TODO
 
-Add New Content
-- HEALTH (My Priorities Sheet)
-	- How to host files? Put them in reverse-proxy's files.hyperling.com site?
-- JOURNEY
+Host referenced content on files.hyperling.com.
 
 ## Inspiration
 
