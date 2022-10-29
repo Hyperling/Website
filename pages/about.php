@@ -17,8 +17,8 @@
 					health and believe it is humanity's most important asset. I was fortunate 
 					to have time off school/work/hobbies in my early 20's was able to lock 
 					in a great lifestyle after a life of chronic sickness. See more below in 
-					<a href="#health">My Health Protocol</a>, it also includes a link to the 
-					full history.
+					<a href="#health">My Health Protocol</a>, 
+					it also includes a link to the full history.
 				</p>
 				<p>	
 					I am also an avid gardener, focusing on the principles of nature-based 

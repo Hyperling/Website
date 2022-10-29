@@ -15,17 +15,12 @@ cat << EOF
 		</div>
 		<div class="row">
 			<div class="col-12 text">
-				<strong>
-					[ WARNING: 
-						This content is still In Progress and needs a full review. 
-					  There may be typos, out of order content, and missing content.
-					]
-				</strong>
+				<strong>Fast Asleep</strong>
 				<p>
 					Headaches, depression, digestive issues, lack of energy, and eventually
 					unprovoked anxiety/panic attacks. This was the norm for me for most of
 					my life. I ate a standard diet including fast food with meat always 
-					being the whether going out or cooking at home.
+					being the main portion whether going out or cooking at home.
 				</p>
 				<p>
 					Eventually I became lactose intolerant due to antibiotics but that was
@@ -38,9 +33,9 @@ cat << EOF
 					What finally hit me hard enough to start changing things was the panic
 					attacks and an itchy mole that had to be surgically removed. By this point
 					in my early 20s I was already plenty skeptical of things like organized
-					religion and businesses profitting off of people, but it started to occur
+					religion and businesses profiting off of people, but it started to occur
 					to me that there were not many facts about health in my knowledge bank.
-					What most people were doing and what I was doing is not working.
+					What most people were doing and what I was doing is not working for us.
 				</p>
 				<p>
 					When I looked in the mirror to see my eyes dilating frantically and body
@@ -50,9 +45,10 @@ cat << EOF
 					so many health issues that they consistently die prematurely or suffer
 					chronically?" 
 				</p>
+				<strong>Waking Up</strong>
 				<p>
 					This lead me into a more nature-based approach to my lifestyle. Obvious
-					things such as soda and candy were elminated first. Next was fast food.
+					things such as soda and candy were eliminated first. Next was fast food.
 					By the end of it I had eliminated "food" such as meat as well since I
 					admitted that if I was living in the wild, I wouldn't be able to kill
 					a cow with my bare hands or teeth, much less chew on its raw carcass. 
@@ -63,7 +59,7 @@ cat << EOF
 					were oatmeal or peanut butter sandwiches with either jelly or bananas. I 
 					was feeling	better, but knew that bread didn't grow on trees so I needed 
 					to keep going	further. This was around the time that a nasty looking and 
-					extremely itchy mole cropped had to be cut out of the the back of my leg.
+					extremely itchy mole had to be cut out of the back of my leg.
 				</p>
 				<p>
 					My saving grace was quitting a restaurant job in order to seek a job
@@ -73,6 +69,7 @@ cat << EOF
 					I didn't have luck finding an internship, but I had plenty of time to 
 					research health, and ended up doing an apple fast.
 				</p>
+				<strong>Enter Fruitarianism</strong>
 				<p>
 					I gorged on apples. Multiple pounds a day for at least three days. I
 					honestly did it not expecting it to work. Being able to live on apples
@@ -90,7 +87,7 @@ cat << EOF
 				</p>
 				<p>
 					I still tell people this to this day: those three months in 2014 were the 
-					best feeling of my life. My body felt light lightning. I had so much energy
+					best feeling of my life. My body felt like lightning. I had so much energy
 					and felt like I could literally accomplish anything. I started riding a bike
 					without having done it since I was a kid, and was able to ride to a town 
 					dozens of miles away with no training or practice, and didn't even feel
@@ -101,18 +98,25 @@ cat << EOF
 					the heat and humidity of summer? Gone as well! My body was able to cool
 					off so much faster without having cooked food stuck in digestion. There
 					were so many weird things that people wouldn't think of being related to 
-					diet and lifestyle.
+					diet and lifestyle. Michael Arnstein even mentions in some interviews that
+					being fruitarian stopped him from getting earwax!
 				</p>
+				<strong>Health is a Lifestyle, not Diet</strong>
 				<p>
 					Speaking of lifestyle, that is something else I learned from listening to
 					my new role models. "Sleep Water Sugar" as Durianrider used to say. The 
-					PDF on my main Health section covers the 6 pillars that I found to be
-					highly important. "CTFU" (Carb The Fuck Up) is first for a reason, in my
-					experimentation it was the most important one. Water and sleep follow 
-					because I found my body does not operate or digest well if those are 
-					missing. Exercise is next because it can go longer without being kept up.
-					The last two are more spiritual, and reuire the first four to be maintained
-					in order for them to be beneficial, but once they are achieved then they
+					<a href="https://files.hyperling.com/Priorities2015.docx" target="_blank">[TBD: PDF]</a> 
+					on my main 
+					<a href="/about/#health" target="_blank">Health</a> 
+					section covers the 6 pillars that I found to be	highly important. 
+				</p>
+				<p>
+					"CTFU" (Carb The Fuck Up) is first for a reason, in my experimentation 
+					it was the most important one. Water and sleep follow because I found 
+					my body does not operate or digest well if those are missing. Exercise 
+					is next because it can go longer without being kept up. The last two 
+					are more spiritual, and require the first four to be maintained in 
+					order for them to be beneficial, but once they are achieved then they
 					can help keep the first four in check when they dwindle.
 				</p>
 				<p>
@@ -123,9 +127,10 @@ cat << EOF
 					street after our home, I started nodding off at the wheel. What a quick
 					indication that certain foods are a no-go!
 				</p>
+				<strong>Back to the Real World</strong>
 				<p>
 					Why would I stop eating like this, you ask? This was a temporary situation.
-					I was on summer break from school and was free from a job. When the fall
+					I was on summer break from school and free from any job. When the fall
 					semester started I needed a job again to pay for gas, books, etc. So I
 					added in clean RawTil4 type foods like rice. For many years I ate like this
 					and still felt great. No oil, which I still don't do to this day. Also no 
@@ -134,18 +139,66 @@ cat << EOF
 					reasons I don't like seasonings and prefer not to use them.
 				</p>
 				<p>
-					There are other things I was able to discover about my body as well, such
-					as alliums causing headaches, body pain, nightmares, and with garlic it
-					becomes full-on night terrors. These are an absolute no when I'm able 
-					to dictate it. Nightshades have also been slowly phased out, avoiding
-					all potato unless deep fried so that the poison is destroyed even things 
-					like tomatoes and non-spicy peppers. These are less of an issue, but raw 
-					and undercooked potatoes cause an obvious head and body tingle/ache, 
-					eggplant digests terribly, and tomatoes cause bloat. In 2022 as an 
-					experiment with my wife while she tried a low histamine experiment I 
-					also found that tomatoes were the reason that my nose has been running 
-					consistently for years! I had been blaming bad air, but just goes to 
-					show that you can never stop learning!
+					Eventually I was corrupted and did end up adding more junk food vegan
+					foods. I tried the fake cheeses, meats, ate food with oils, had processed
+					snacks, etc. During this time though I stuck to the main principles of
+					the PDF, and kept the carb ratio high as well as stayed hydrated and 
+					rested. I could tell that the processed food was lowering my energy levels
+					but I remained disease free and was still able to accomplish a lot. I
+					still ate simple meals like fruits and rice when alone but was more 
+					willing to go out with coworkers and family to restaurants.
+				</p>
+				<strong>Learning My Sensitivities</strong>
+				<p>
+					There are other things I was able to discover about my body as well when
+					reintroducing cooked foods, such as alliums causing headaches, body pain, 
+					nightmares, and with garlic specifically it becomes full-on night terrors. 
+					These are an absolute no when I'm able to control it.
+				</p>
+				<p>
+					Nightshades have also been slowly phased out. I avoid all potato unless 
+					deep fried so that the poison is destroyed, although I do try to avoid
+					deep fried food when possible. In 2022 as an experiment with my wife 
+					while she tried a low histamine experiment I also found that tomatoes 
+					were the reason that my nose has been running consistently for years! 
+					I had been blaming bad air, but just goes to show that you can never 
+					stop learning! So now even things like tomatoes and non-spicy peppers 
+					have been cut out. These are less of an issue, but raw and undercooked 
+					potatoes cause an obvious head and body tingle/ache. I've also found
+					that eggplant digests terribly for me. 
+				</p>
+				<p>
+					Stress is also a sensitivity for me. I tend to put myself in my work,
+					so creating a work/life balance is important to prevent me from getting
+					overwhelmed from a needy environment. When deadlines are not realistic
+					or there is just too much work to go around I have learned to accept 
+					that it is other's responsibilities to manage these things wisely. If
+					the people saying these things need done are the same people who do not
+					offer overtime compensation or other benefits for overworking then the
+					blame and stress of not accomplishing these things cannot be mine. I
+					cannot accept the responsibility of other people's mismanagement.
+				</p>
+				<strong>Current Lifestyle</strong>
+				<p>
+					Today I lean towards a more RawTilX style diet again. Breakfast consists
+					of fruit, such as a pound or two of apples, or half a pound of dried
+					mango rehydrated for a few hours in water. Lunch is a grain such as 
+					rice or quinoa. Dinner is usually a high-vegetable dish and tends to
+					include beans. Sometimes breakfast may be a water or dry fast, the fruit
+					meal is done as lunch, and lunch and dinner are combined into one meal.
+				</p>
+				<p>
+					Exercise comes and goes. Cycling is no longer a hobby of mine. A normal
+					week will have multiple 20-30 minute dog walks as well as a few strenuous 
+					hikes. Yard and garden work also contribute to keeping the body active
+					and strong. It also aids in getting sunand fresh air!
+				</p>
+				<strong>Thank You!</strong>
+				<p>
+					I appreciate you making it through this! Hopefully you've not only learned
+					a thing or two about me, but you've also obtained knowledge that you can
+					help improve your life. That's my goal after all, helping others! 
+					Take care, friend. :)
 				</p>
 			</div>
 		</div>

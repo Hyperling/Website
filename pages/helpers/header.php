@@ -3,6 +3,7 @@
 <html>
 	<head>
 		<title>Hyperling</title>
+		<!-- TBD move these favicons to files.hyperling.com -->
 		<link rel="icon" sizes="32x32"
 			href="https://www.hyperling.com/wp-content/uploads/2020/09/favicon.ico" 
 		/>
