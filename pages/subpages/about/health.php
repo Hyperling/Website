@@ -19,8 +19,8 @@
 					my protocol without getting too into the weeds can be found here:
 				</p>
 				<!-- URL/image/something to MyPriorities.pdf on files.hyperling.com -->
-				<a href="https://files.hyperling.com/Priorities2015.docx" target="_blank">
-					Health Is A Priority (PDF Download) [TBD]
+				<a href="https://files.hyperling.com/media/HealthPriorities.pdf" target="_blank">
+					Health Is A Priority (PDF Download)
 				</a>
 				<p>
 					Other free sources of imformation I recommend would be 

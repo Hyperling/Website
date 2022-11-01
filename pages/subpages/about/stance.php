@@ -5,6 +5,7 @@
 		</div>
 		<div class="row">
 			<div class="col-12 text">
+				<p></p>
 				<strong>General</strong>
 				<p>
 					My thoughts are my own. I do not subscribe to any external systems.
