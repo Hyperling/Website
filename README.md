@@ -26,7 +26,7 @@ Then in a web browser, navigate to `your_machines_ip_address:8080`.
 
 ## TODO
 
-Host referenced content on files.hyperling.com.
+All goals are currently completed.
 
 ## Inspiration
 
