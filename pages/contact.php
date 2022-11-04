@@ -9,7 +9,7 @@
 		<div class="row">
 			<div class="col-12 text">
 				<p>
-					Public inquries can be made on my Odysee channel's discussion board.
+					Public inquiries can be made on my Odysee channel's discussion board.
 				</p>
 				<ul class="indent"><li>
 					<a href="https://odysee.com/@HyperVegan:2?view=discussion"

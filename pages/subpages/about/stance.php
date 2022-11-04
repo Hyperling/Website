@@ -17,7 +17,7 @@
 					<li>Peace over War</li>
 					<li>Love over Hate</li>
 					<li>Happiness over Currency</li>
-					<li>Free Time over Salaray</li>
+					<li>Free Time over Salary</li>
 					<li>People over Profit</li>
 					<li>Freedom over Security</li>
 					<li>Rules over Rulers</li>
@@ -26,7 +26,7 @@
 				</ul>
 				<p>
 					I prefer interacting with human beings and creatures of the Earth. 
-					Electronics and artifical persons are of decreasing interest to me.
+					Electronics and artificial persons are of decreasing interest to me.
 				</p>
 				<strong>Politics</strong>
 				<p>
