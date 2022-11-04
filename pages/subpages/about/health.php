@@ -23,7 +23,7 @@
 					Health Is A Priority (PDF Download)
 				</a>
 				<p>
-					Other free sources of imformation I recommend would be 
+					Other free sources of information I recommend would be 
 					<a href="https://www.drmcdougall.com/" 
 						target="_blank" rel="noopener noreferrer"
 					>Dr John McDougall</a>, 

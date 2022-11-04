@@ -191,7 +191,7 @@ cat << EOF
 					Exercise comes and goes. Cycling is no longer a hobby of mine. A normal
 					week will have multiple 20-30 minute dog walks as well as a few strenuous 
 					hikes. Yard and garden work also contribute to keeping the body active
-					and strong. It also aids in getting sunand fresh air!
+					and strong. It also aids in getting sun and fresh air!
 				</p>
 				<strong>Thank You!</strong>
 				<p>
