@@ -11,13 +11,38 @@
 					in case I have moved around. I also recommend you buying these for
 					yourself if you'd like to add delicious nutritious food to your diet!
 				</p>
+				<p>
+					Note that I normally only eat organic and clean food. Anything 
+					purchased as inorganic or with preservatives such as sulfites may be 
+					regifted or discarded upon receipt. Thank you for understanding.
+				</p>
 				<strong>Food Items</strong> 
-				<ul class="indent">
-					<li><a href="https://foodtolive.com/shop/organic-mango-cheeks/"
-						target="_blank" rel="noopener noreferrer"
-					>
-						Mango
-					</a></li>
+				<ul>
+					<li>
+						Dried Mango in order of favorite brands:
+						<ol>
+							<li>
+								<a href="https://www.madeinnature.com/products/mangoes-dried-fruit"
+									target="_blank" rel="noopener noreferrer"
+								>Made in Nature</a> (very sweet, strips are a good size)
+							</li>
+							<li>
+								<a href="https://www.safeway.com/shop/product-details.960465482.html"
+									target="_blank" rel="noopener noreferrer"
+								>Safeway</a> (was delicious when had out West)
+							</li>
+							<li>
+								<a href="https://www.target.com/p/organic-dried-mango-cheeks-12oz-good-38-gather-8482/-/A-81905926"
+									target="_blank" rel="noopener noreferrer"
+								>Target</a> (sweet but cheeks are large)
+							</li>
+							<li>
+								<a href="https://foodtolive.com/shop/organic-mango-cheeks/"
+									target="_blank" rel="noopener noreferrer"
+								>Food To Live</a> (tastes kind of musty, cheeks larger than Target, but is edible)
+							</li>
+						</ol>
+					</li>
 					<li><a href="https://foodtolive.com/shop/organic-jasmine-rice/" 
 						target="_blank" rel="noopener noreferrer"
 					>
@@ -45,7 +70,7 @@
 					</a></li>
 				</ul>
 				<strong>Bulk Teas</strong>
-				<ul class="indent">
+				<ul>
 					<li><a href="https://www.davidsonstea.com/Tulsi_Pure_Leaves_Loose_Leaf.aspx"
 						target="_blank" rel="noopener noreferrer"
 					>
