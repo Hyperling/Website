@@ -44,7 +44,6 @@
 					<li>Mountains</li>
 					<li>Lack of Bugs</li>
 					<li>Permaculture Possibilities</li>
-					<li>Native Cactus and/or Spruce</li>
 				</ul>
 				<p>
 					The search will begin in Arizona. Colorado and Mexico will likely
