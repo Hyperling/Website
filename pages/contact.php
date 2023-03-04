@@ -20,7 +20,7 @@
 				</li></ul>
 				<p>
 					For private matters, my email address may be used, but there is no
-					guarantee of timely response. If I do not know of you then please be
+					guarantee of a timely response. If I do not know of you then please be
 					sure to form the email in a way that does not look like spam.
 				</p>
 				<ul class="indent"><li>
