@@ -8,8 +8,9 @@
 				<p>
 					Please reach out before purchasing any of these to make sure that I do
 					not already have an excess supply. I can also provide a good address
-					in case I have moved around. I also recommend you buying these for
-					yourself if you'd like to add delicious nutritious food to your diet!
+					in case I have moved around. I also recommend you buying these items 
+					for yourself if you'd like to add some delicious and nutritious food 
+					to your diet!
 				</p>
 				<p>
 					Note that I normally only eat organic and clean food. Anything 
@@ -19,7 +20,7 @@
 				<strong>Food Items</strong> 
 				<ul>
 					<li>
-						Dried Mango in order of favorite brands:
+						Dried Mango, in order of my favorite brands:
 						<ol>
 							<li>
 								<a href="https://www.madeinnature.com/products/mangoes-dried-fruit"
@@ -29,7 +30,7 @@
 							<li>
 								<a href="https://www.safeway.com/shop/product-details.960465482.html"
 									target="_blank" rel="noopener noreferrer"
-								>Safeway</a> (was delicious when had out West)
+								>Safeway</a> (was delicious when purchased out West)
 							</li>
 							<li>
 								<a href="https://www.target.com/p/organic-dried-mango-cheeks-12oz-good-38-gather-8482/-/A-81905926"
