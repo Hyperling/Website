@@ -13,7 +13,7 @@
 			<div class="col-12 text">
 				<p>	
 					I enjoy making video content when I have free time. Other life duties 
-					take priority so this is not always frequent of often. For the best 
+					take priority so this is not always frequent or often. For the best 
 					viewing experience, please go directly to my channel here:
 				</p>
 				<ul class="indent"><li>
