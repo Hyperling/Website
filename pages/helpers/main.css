@@ -82,3 +82,13 @@
 				/*max-width: 1px;*/
 				padding: 7px;
 			}
+
+			img {
+				max-width: 500px;
+				max-height: 500px;
+			}
+
+			body {
+				max-width: 1200px;
+				margin: 0 auto;
+			}
