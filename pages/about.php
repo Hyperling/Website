@@ -27,7 +27,9 @@
 					camping, backpacking, foraging, and traveling.
 				</p>
 				<p>
-					As of 2023 I reside in Arizona, USA.
+					I live within the boundaries known as the United States of America.
+					From birth to 2023 it was the subboundaries of Indiana, and since 2023
+					it is the subboundaries of Arizona.
 				</p>
 			</div>
 		</div>
