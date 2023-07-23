@@ -29,7 +29,7 @@
 				</p>
 				<strong>Legal Jurisdiction</strong>
 				<p>
-					I am in the process of learning the rules I have been mistakenly
+					I am in the process of learning any rules I have been mistakenly
 					bound by. Anything signed which gives away Natural Law rights will
 					be considered under duress through confusion and complication.
 				</p>
