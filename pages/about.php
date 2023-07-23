@@ -28,8 +28,8 @@
 				</p>
 				<p>
 					I live within the boundaries known as the United States of America.
-					From birth to 2023 I lived within the subboundaries of Indiana.
-					From 2023 to current I live within the subboundaries of Arizona.
+					From birth to 2023 it was the subboundaries of Indiana, and since 2023
+					it is the subboundaries of Arizona.
 				</p>
 			</div>
 		</div>
