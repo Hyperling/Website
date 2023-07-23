@@ -30,7 +30,7 @@
 				<strong>Legal Jurisdiction</strong>
 				<p>
 					I am in the process of learning any rules I have been mistakenly
-					bound by. Anything signed which gives away Natural Law rights will
+					bound by. Any agreements which give away Natural Law rights will
 					be considered under duress through confusion and complication.
 				</p>
 			</div>
