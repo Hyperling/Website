@@ -27,7 +27,7 @@
 					camping, backpacking, foraging, and traveling.
 				</p>
 				<p>
-					As of 2023 I reside in Arizona, USA.
+					As of 2023 I reside in the state of Arizona, USA.
 				</p>
 			</div>
 		</div>
