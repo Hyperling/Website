@@ -62,12 +62,12 @@
 
 			/** Objects which need borders **/
 			.border {
-				border: 1px solid #339933;
+				border: 1px solid #33CC33;
 			}
 
 			/* Also have this apply to a table's cells. */
 			.border * th,td {
-				border: 1px solid #339933;
+				border: 1px solid #33CC33;
 			}
 
 			/** Format tables and allow contents to be broken up. **/
