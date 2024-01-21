@@ -192,6 +192,9 @@ async function main() {
 			case "png":
 				mime = "image/png";
 				break;
+			case "html":
+				mime = "text/html";
+				break;
 			default:
 				mime = "text/*";
 				break;
