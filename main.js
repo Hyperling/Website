@@ -171,7 +171,7 @@ async function main() {
 	});
 
 	// Return a resource from the files folder.
-	console.log(" * Creating router for redirection");
+	console.log(" * Creating router for files");
 	router.get('/files*', function (req, res) {
 		console.log("file response to", req.socket.remoteAddress, "asking for", req.url)
 
