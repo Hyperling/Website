@@ -25,7 +25,18 @@ const pages_dir = "./pages/";
 const file_types = ["php", "sh"];
 
 let ports = [];
-ports.push(8080);
+// Check parameters for numeric port numbers.
+process.argv.forEach(function (val, index, array) {
+	console.log("Parameter", index + ':', val, !isNaN(val));
+	if (!isNaN(val)) {
+		console.log("Adding Port", val)
+		ports.push(val);
+	}
+});
+// Default port if none were passed.
+if (ports.length === 0) {
+	ports.push(8080);
+}
 
 //// Functions ////
 
