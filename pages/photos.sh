@@ -33,7 +33,7 @@ ls files/photos/ | sort -r | while read album; do
 	album_name=${album_name//-/ }
 	echo -en "\t\t<h2 class='col-12 title'>"
 	echo -en "<a href='/files/photos/$album/index.html' "
-	echo -e "target='_blank'>$album_name</a></h2>" # rel='noopener noreferrer'
+	echo -e "target='_blank' rel='noopener noreferrer'>$album_name</a></h2>"
 	echo -e "\t\t<div class='col-12 text'>"
 
 	# Create index page for each photo ALBUM based on its contents.
