@@ -5,12 +5,13 @@
 # Static Variables
 header="<html>\n\t<header>\n\t\t<title>ALBUM</title>\n\t</header>\n\t<body>"
 footer="\n\t</body>\n</html>"
+HELPER_DIR=./pages/helpers
 
 # Move to the main project directory.
 cd `dirname $0`/..
 
 # Create the necessary HTML components for a web page.
-pages/helpers/body_open.php
+$HELPER_DIR/body_open.php
 
 # Give the page a description.
 echo -e "\n\t\t<h1 class='col-12 title'>Photo Albums</h1>"
@@ -33,7 +34,7 @@ ls files/photos/ | sort -r | while read album; do
 	# Create index for each photo album based on its contents.
 	page=""
 	subpage="files/photos/$album/index.html"
-	pages/helpers/body_open.php > $subpage
+	$HELPER_DIR/body_open.php > $subpage
 	echo -e "\n\t\t<h1 class='col-12 title'>$album_name</h1>" >> $subpage
 	ls files/photos/$album/* | sort | while read photo; do
 		# Do not include the index page.
@@ -50,7 +51,6 @@ ls files/photos/ | sort -r | while read album; do
 		# Remove special characters for spaces.
 		filename="${filename//_/ }"
 		filename="${filename//-/ }"
-
 
 		if [[ $photo == *"/README.md" || $photo == *"/README.txt" ]]; then
 			# If there is a README, show it on the PHOTOS page without a link.
@@ -92,8 +92,8 @@ ls files/photos/ | sort -r | while read album; do
 	echo -e "\t\t</div>"
 
 	# Close out the ALBUM's page.
-	pages/helpers/body_close.php >> $subpage
+	$HELPER_DIR/body_close.php >> $subpage
 done
 
 # Finish the web page.
-pages/helpers/body_close.php
+$HELPER_DIR/body_close.php
