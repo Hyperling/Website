@@ -11,7 +11,13 @@ cd `dirname $0`/..
 
 # Create the necessary HTML components for a web page.
 pages/helpers/body_open.php
+
+# Give the page a description.
 echo -e "\n\t\t<h1 class='col-12 title'>Photo Albums</h1>"
+echo -en "\t\t<p class='col-12 text'>You may click on an album name to view "
+echo -en "all of its files, or click on a specific image to bring up the full "
+echo -en "resolution. On the album pages you may also click an image or video "
+echo -e "name to pull up the full resolution for download.</p>"
 
 # Display the album names descending.
 ls files/photos/ | sort -r | while read album; do
@@ -22,13 +28,13 @@ ls files/photos/ | sort -r | while read album; do
 	echo -en "\t\t<h2 class='col-12 title'>"
 	echo -en "<a href='/files/photos/$album/index.html' "
 	echo -e "target='_blank' rel='noopener noreferrer'>$album_name</a></h2>"
-	echo -e "\t\t\t<div class='col-12 text'>"
+	echo -e "\t\t<div class='col-12 text'>"
 
 	# Create index for each photo album based on its contents
 	page=""
 	subpage="files/photos/$album/index.html"
 	pages/helpers/body_open.php > $subpage
-	echo -e "\t\t<h1 class='col-12 title'>$album_name</h1>" >> $subpage
+	echo -e "\n\t\t<h1 class='col-12 title'>$album_name</h1>" >> $subpage
 	ls files/photos/$album/* | sort | while read photo; do
 		# Do not include the index page.
 		if [[ $photo == *"index.html" ]]; then
@@ -46,21 +52,30 @@ ls files/photos/ | sort -r | while read album; do
 		filename="${filename//-/ }"
 
 		# Put in the PHOTOS page list
-		echo -en "\t\t\t\t<li class='indent'><a href=/$photo target='_blank' "
+		echo -en "\t\t\t<li class='indent'><a href=/$photo target='_blank' "
 		echo -e "rel='noopener noreferrer'>$filename</a></li>"
 
 		# Put in the subpage HTML.
 		echo -e "\t\t<div class='col-6 center'>" >> $subpage
 		echo -en "\t\t\t<a href=/$photo target='_blank' " >> $subpage
 		echo -e "rel='noopener noreferrer'>" >> $subpage
-		echo -e "\t\t\t\t<img src='/$photo'/>" >> $subpage
+		if [[ $photo == *".mp4" ]]; then
+			echo -e "\t\t\t\t<video width='320px' controls>" >> $subpage
+			echo -e "\t\t\t\t\t<source src='/$photo' type=video/mp4>" >> $subpage
+			echo -e "\t\t\t\t\tYour browser does not support videos." >> $subpage
+			echo -e "\t\t\t\t</video>" >> $subpage
+		else
+			echo -e "\t\t\t\t<img src='/$photo'/>" >> $subpage
+		fi
 		echo -e "\t\t\t\t<p>$filename</p>" >> $subpage
 		echo -e "\t\t\t</a>" >> $subpage
 		echo -e "\t\t</div>" >> $subpage
 	done
-	echo -e "\n\t\t\t</div>"
 
-	# Close out the page album's page.
+	# End album on PHOTOS page.
+	echo -e "\t\t</div>"
+
+	# Close out the ALBUM's page.
 	pages/helpers/body_close.php >> $subpage
 done
 
