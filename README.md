@@ -14,25 +14,29 @@ All content is formatted so that the page source is readible.
 
 # How To Run
 
-The install script is currently only set up for apt, and the package names only tested on Ubuntu. 
+The install script is currently only set up for apt, and the package names only
+tested on Ubuntu and Debian.
 
-`git clone https://github.com/Hyperling/www www`
+```
+git clone https://github.com/Hyperling/website www
+cd www
+./run.sh
+```
 
-`cd www`
-
-`./run.sh`
-
-Then in a web browser, navigate to `your_machines_ip_address:8080`.
+Then in a web browser, navigate to `localhost:8080`.
 
 ## TODO
 
 All goals are currently completed.
 
+- ~~Add support for Let's Encrypt without using `nginx` or `apache`.~~
+    - Going to continue using a reverse proxy, but may still be nice someday.
+
 ## Inspiration
 
-- [https://liquorix.net/]
+- [Liquorix Kernel](https://liquorix.net/)
   - The linux-zen kernel, a really great one if you're running FOSS OS's!
-- [https://cahlen.org/]
+- [Cahlen.org](https://cahlen.org/)
   - Also has really interesting and important content, it is highly recommended.
-- [https://merkinvineyardsosteria.com/]
+- [Merkin Vineyards Osteria](https://merkinvineyardsosteria.com/)
   - A winery website for MJ Keenan.

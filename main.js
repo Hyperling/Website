@@ -25,7 +25,18 @@ const pages_dir = "./pages/";
 const file_types = ["php", "sh"];
 
 let ports = [];
-ports.push(8080);
+// Check parameters for numeric port numbers.
+process.argv.forEach(function (val, index, array) {
+	console.log("Parameter", index + ':', val, !isNaN(val));
+	if (!isNaN(val)) {
+		console.log("Adding Port", val)
+		ports.push(val);
+	}
+});
+// Default port if none were passed.
+if (ports.length === 0) {
+	ports.push(8080);
+}
 
 //// Functions ////
 
@@ -116,7 +127,7 @@ async function main() {
 	console.log("...Adding Routes...");
 	let router = express.Router();
 
-	/* AUTOMATIC METHOD BASED ON OBJECT/ARRAY OF WEB SCRIPTS 
+	/* AUTOMATIC METHOD BASED ON OBJECT/ARRAY OF WEB SCRIPTS
 	// Creates routes with the URL of the key and location of the value.
 	*/
 	for (let key in pages) {
@@ -168,6 +179,48 @@ async function main() {
 	router.get('/sitemap*', function (req, res) {
 		console.log("sitemap.html being provided to", req.socket.remoteAddress)
 		res.send(sitemap_html);
+	});
+
+	// Return a resource from the files folder.
+	console.log(" * Creating router for files");
+	router.get('/files*', function (req, res) {
+		console.log("file response to", req.socket.remoteAddress, "asking for", req.url)
+
+		// Build variables.
+		const file = "." + req.path;
+		const extensions = req.path.split(".");
+		const extension = extensions[extensions.length-1];
+
+		// Check extension and guess a MIME type.
+		let mime;
+		switch (extension) {
+			case "apk":
+				mime = "application/vnd.android.package-archive";
+				break;
+			case "jpg" || "jpeg":
+				mime = "image/jpeg";
+				break;
+			case "png":
+				mime = "image/png";
+				break;
+			case "html":
+				mime = "text/html";
+				break;
+			default:
+				mime = "text/*";
+				break;
+		}
+		console.log("- Extension", extension, "led to MIME", mime);
+
+		// Return the file
+		res.contentType(mime);
+		let f = fs.createReadStream(file)
+			.on("error", function(e) {
+				res.contentType("text/plain");
+				res.send(404, "File Not Found");
+			})
+			.pipe(res)
+		;
 	});
 
 	// Originally a test, now a catch-all redirection to Home!
