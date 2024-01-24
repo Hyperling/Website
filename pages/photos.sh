@@ -30,7 +30,7 @@ ls files/photos/ | sort -r | while read album; do
 	echo -e "target='_blank' rel='noopener noreferrer'>$album_name</a></h2>"
 	echo -e "\t\t<div class='col-12 text'>"
 
-	# Create index for each photo album based on its contents
+	# Create index for each photo album based on its contents.
 	page=""
 	subpage="files/photos/$album/index.html"
 	pages/helpers/body_open.php > $subpage
@@ -51,9 +51,19 @@ ls files/photos/ | sort -r | while read album; do
 		filename="${filename//_/ }"
 		filename="${filename//-/ }"
 
-		# Put in the PHOTOS page list
-		echo -en "\t\t\t<li class='indent'><a href=/$photo target='_blank' "
-		echo -e "rel='noopener noreferrer'>$filename</a></li>"
+
+		if [[ $photo == *"/README.md" || $photo == *"/README.txt" ]]; then
+			# If there is a README, show it on the PHOTOS page without a link.
+			echo -e "\t\t\t<p>`cat $photo`</p>"
+		else
+			# Otherwise put in the PHOTOS page list.
+			echo -en "\t\t\t<li class='indent'><a href=/$photo target='_blank' "
+			echo -en "rel='noopener noreferrer'>$filename"
+			if [[ $photo == *".mp4" ]]; then
+				echo -en " [VIDEO]"
+			fi
+			echo -e "</a></li>"
+		fi
 
 		# Put in the subpage HTML.
 		echo -e "\t\t<div class='col-6 center'>" >> $subpage
@@ -64,12 +74,18 @@ ls files/photos/ | sort -r | while read album; do
 			echo -e "\t\t\t\t\t<source src='/$photo' type=video/mp4>" >> $subpage
 			echo -e "\t\t\t\t\tYour browser does not support videos." >> $subpage
 			echo -e "\t\t\t\t</video>" >> $subpage
+		elif [[ $photo == *".md" || $photo == *".txt" ]]; then
+			echo -e "\t\t\t\t<p>`cat $photo`</p>" >> $subpage
 		else
 			echo -e "\t\t\t\t<img src='/$photo'/>" >> $subpage
 		fi
-		echo -e "\t\t\t\t<p>$filename</p>" >> $subpage
-		echo -e "\t\t\t</a>" >> $subpage
-		echo -e "\t\t</div>" >> $subpage
+
+		# Add a descriptive link.
+		echo -en "\t\t\t\t<p>$filename" >> $subpage
+		if [[ $photo == *".mp4" ]]; then
+			echo -en " [VIDEO]" >> $subpage
+		fi
+		echo -e "</p>\n\t\t\t</a>\n\t\t</div>" >> $subpage
 	done
 
 	# End album on PHOTOS page.
@@ -79,5 +95,5 @@ ls files/photos/ | sort -r | while read album; do
 	pages/helpers/body_close.php >> $subpage
 done
 
-# Finish the web page
+# Finish the web page.
 pages/helpers/body_close.php
