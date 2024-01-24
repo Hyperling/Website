@@ -31,11 +31,17 @@ ls files/photos/ | sort -r | while read album; do
 	echo -e "target='_blank' rel='noopener noreferrer'>$album_name</a></h2>"
 	echo -e "\t\t<div class='col-12 text'>"
 
-	# Create index for each photo album based on its contents.
+	# Create index page for each photo ALBUM based on its contents.
 	page=""
 	subpage="files/photos/$album/index.html"
 	$HELPER_DIR/body_open.php > $subpage
-	echo -e "\n\t\t<h1 class='col-12 title'>$album_name</h1>" >> $subpage
+
+	# Add a back button
+	echo -en "\n\t\t<a href='/photos'>" >> $subpage
+	echo -e "<h3 class='col-12 title'>Back</h3></a>" >> $subpage
+
+	# Build the ALBUM page.
+	echo -e "\t\t<h1 class='col-12 title'>$album_name</h1>" >> $subpage
 	ls files/photos/$album/* | sort | while read photo; do
 		# Do not include the index page.
 		if [[ $photo == *"index.html" ]]; then
@@ -90,6 +96,10 @@ ls files/photos/ | sort -r | while read album; do
 
 	# End album on PHOTOS page.
 	echo -e "\t\t</div>"
+
+	# Add a final back button
+	echo -en "\t\t<a href='/photos'>" >> $subpage
+	echo -e "<h3 class='col-12 title'>Back</h3></a>" >> $subpage
 
 	# Close out the ALBUM's page.
 	$HELPER_DIR/body_close.php >> $subpage
