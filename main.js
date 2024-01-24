@@ -210,7 +210,6 @@ async function main() {
 				mime = "text/*";
 				break;
 		}
-		console.log("- Extension", extension, "led to MIME", mime);
 
 		// Return the file
 		res.contentType(mime);
