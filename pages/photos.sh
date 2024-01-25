@@ -10,7 +10,7 @@ footer="\n\t</body>\n</html>"
 # Move to the main directory.
 cd $DIR/..
 
-# Where resources are from the current directory.
+# Where resources are from the main directory.
 HELPER_DIR=./pages/helpers
 PHOTOS_DIR=./files/photos
 mainpage=$PHOTOS_DIR/index.html
