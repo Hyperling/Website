@@ -144,4 +144,5 @@ done
 $HELPER_DIR/body_close.php >> $mainpage
 
 cat $mainpage
+echo "<!-- Built from scratch. -->"
 exit 0
