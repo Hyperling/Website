@@ -3,30 +3,41 @@
 # Transition away from PhotoPrism. Helps to save system resources and downsize.
 
 # Static Variables
+DIR=`dirname $0`
 header="<html>\n\t<header>\n\t\t<title>ALBUM</title>\n\t</header>\n\t<body>"
 footer="\n\t</body>\n</html>"
-HELPER_DIR=./pages/helpers
 
-# Move to the main project directory.
-cd `dirname $0`/..
+# Move to where this script exists.
+cd $DIR
+
+# Where resources are from the current directory.
+HELPER_DIR=../pages/helpers
+mainpage=../files/photos/index.html
+
+# Use the cached version if available.
+if [[ -e $mainpage ]]; then
+	cat $mainpage
+	echo "<!-- Loaded from cache. :) -->"
+	exit 0
+fi
 
 # Create the necessary HTML components for a web page.
-$HELPER_DIR/body_open.php
-echo ""
+$HELPER_DIR/body_open.php > $mainpage
+echo "" >> $mainpage
 
 # Give the page a description.
-echo -e "\t\t<div class='row'>"
-echo -e "\t\t\t<h1 class='col-12 title'>Photo Albums</h1>"
-echo -e "\t\t</div>"
+echo -e "\t\t<div class='row'>" >> $mainpage
+echo -e "\t\t\t<h1 class='col-12 title'>Photo Albums</h1>" >> $mainpage
+echo -e "\t\t</div>" >> $mainpage
 
-echo -e "\t\t<div class='row'>"
-echo -e "\t\t\t<div class='col-12 text'>"
-echo -en "\t\t\t\t<p>You may click on an album name to "
-echo -en "view all of its files, or click on a specific image to bring up the "
-echo -en "full resolution. On the album pages you may also click an image or "
-echo -e "video name to pull up the full resolution for download.</p>"
-echo -e "\t\t\t</div>"
-echo -e "\t\t</div>"
+echo -e "\t\t<div class='row'>" >> $mainpage
+echo -e "\t\t\t<div class='col-12 text'>" >> $mainpage
+echo -en "\t\t\t\t<p>You may click on an album name to " >> $mainpage
+echo -en "view all of its files, or click on a specific image to bring up the " >> $mainpage
+echo -en "full resolution. On the album pages you may also click an image or " >> $mainpage
+echo -e "video name to pull up the full resolution for download.</p>" >> $mainpage
+echo -e "\t\t\t</div>" >> $mainpage
+echo -e "\t\t</div>" >> $mainpage
 
 # Display the album names descending.
 ls files/photos/ | sort -r | while read album; do
@@ -39,14 +50,14 @@ ls files/photos/ | sort -r | while read album; do
 	album_name=${album}
 	album_name=${album_name//_/ }
 	album_name=${album_name//-/ }
-	echo -e "\t\t<div class='row'>"
-	echo -en "\t\t\t<h2 class='col-12 title'>"
-	echo -en "<a href='/files/photos/$album/index.html' "
-	echo -e "target='_blank' rel='noopener noreferrer'>$album_name</a></h2>"
-	echo -e "\t\t</div>"
+	echo -e "\t\t<div class='row'>" >> $mainpage
+	echo -en "\t\t\t<h2 class='col-12 title'>" >> $mainpage
+	echo -en "<a href='/files/photos/$album/index.html' " >> $mainpage
+	echo -e "target='_blank' rel='noopener noreferrer'>$album_name</a></h2>" >> $mainpage
+	echo -e "\t\t</div>" >> $mainpage
 
 	# Catch all the upcoming photo records.
-	echo -e "\t\t<div class='row'>\n\t\t\t<div class='col-12 text'>"
+	echo -e "\t\t<div class='row'>\n\t\t\t<div class='col-12 text'>" >> $mainpage
 
 	# Create index page for each photo ALBUM based on its contents.
 	page=""
@@ -81,15 +92,15 @@ ls files/photos/ | sort -r | while read album; do
 
 		if [[ $photo == *"/README.md" || $photo == *"/README.txt" ]]; then
 			# If there is a README, show it on the PHOTOS page without a link.
-			echo -e "\t\t\t\t<p>`cat $photo`</p>"
+			echo -e "\t\t\t\t<p>`cat $photo`</p>" >> $mainpage
 		else
 			# Otherwise put in the PHOTOS page list.
-			echo -en "\t\t\t\t<li class='indent'><a href=/$photo target='_blank' "
-			echo -en "rel='noopener noreferrer'>$filename"
+			echo -en "\t\t\t\t<li class='indent'><a href=/$photo target='_blank' " >> $mainpage
+			echo -en "rel='noopener noreferrer'>$filename" >> $mainpage
 			if [[ $photo == *".mp4" ]]; then
-				echo -en " [VIDEO]"
+				echo -en " [VIDEO]" >> $mainpage
 			fi
-			echo -e "</a></li>"
+			echo -e "</a></li>" >> $mainpage
 		fi
 
 		# Put in the subpage HTML.
@@ -117,8 +128,8 @@ ls files/photos/ | sort -r | while read album; do
 	echo -e "\t\t</div>" >> $subpage
 
 	# End album listings on PHOTOS page.
-	echo -e "\t\t\t</div>"
-	echo -e "\t\t</div>"
+	echo -e "\t\t\t</div>" >> $mainpage
+	echo -e "\t\t</div>" >> $mainpage
 
 	# Add a final back button
 	echo -en "\n\t\t<div class='row'>\n\t\t\t<a href='/photos'>" >> $subpage
@@ -129,4 +140,7 @@ ls files/photos/ | sort -r | while read album; do
 done
 
 # Finish the web page.
-$HELPER_DIR/body_close.php
+$HELPER_DIR/body_close.php >> $mainpage
+
+cat $mainpage
+exit 0
