@@ -7,12 +7,13 @@ DIR=`dirname $0`
 header="<html>\n\t<header>\n\t\t<title>ALBUM</title>\n\t</header>\n\t<body>"
 footer="\n\t</body>\n</html>"
 
-# Move to where this script exists.
-cd $DIR
+# Move to the main directory.
+cd $DIR/..
 
 # Where resources are from the current directory.
-HELPER_DIR=../pages/helpers
-mainpage=../files/photos/index.html
+HELPER_DIR=./pages/helpers
+PHOTOS_DIR=./files/photos
+mainpage=$PHOTOS_DIR/index.html
 
 # Use the cached version if available.
 if [[ -e $mainpage ]]; then
@@ -40,9 +41,9 @@ echo -e "\t\t\t</div>" >> $mainpage
 echo -e "\t\t</div>" >> $mainpage
 
 # Display the album names descending.
-ls files/photos/ | sort -r | while read album; do
+ls $PHOTOS_DIR/ | sort -r | while read album; do
 	# Skip files, only read directories.
-	if [[ ! -d files/photos/$album ]]; then
+	if [[ ! -d $PHOTOS_DIR/$album ]]; then
 		continue
 	fi
 
@@ -61,7 +62,7 @@ ls files/photos/ | sort -r | while read album; do
 
 	# Create index page for each photo ALBUM based on its contents.
 	page=""
-	subpage="files/photos/$album/index.html"
+	subpage="$PHOTOS_DIR/$album/index.html"
 	$HELPER_DIR/body_open.php > $subpage
 
 	# Add a back button
@@ -74,7 +75,7 @@ ls files/photos/ | sort -r | while read album; do
 	echo -e "\t\t</div>" >> $subpage
 
 	echo -e "\t\t<div class='row text'>" >> $subpage
-	ls files/photos/$album/* | sort | while read photo; do
+	ls $PHOTOS_DIR/$album/* | sort | while read photo; do
 		# Do not include the index page.
 		if [[ $photo == *"index.html" ]]; then
 			continue
