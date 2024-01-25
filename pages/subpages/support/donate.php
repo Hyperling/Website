@@ -32,14 +32,14 @@
 					</table>
 				</li></ul>-->
 
-				<strong>Monero | XMR</strong>
+				<strong><code>XMR | Monero</code></strong>
 				<ul class="indent"><li>
-					4ATk6owoMki46CuVfyAHS57FB5deqVFudTsaifQC1cfmcaQemgPEftcjZcW9DmcyfrfdRjxHQ9m4JAVSorYTgm6h8JnT7ao
+					<kbd>4ATk6owoMki46CuVfyAHS57FB5deqVFudTsaifQC1cfmcaQemgPEftcjZcW9DmcyfrfdRjxHQ9m4JAVSorYTgm6h8JnT7ao</kbd>
 				</li></ul>
 
-				<strong>LBRY/Odysee Credit | LBC</strong>
+				<strong><code>LBC | LBRY/Odysee Credit</code></strong>
 				<ul class="indent"><li>
-					bDWP6qZajtm9Q9EkryKTorRwKFd5eDbPJj
+					<kbd>bDWP6qZajtm9Q9EkryKTorRwKFd5eDbPJj</kbd>
 				</li></ul>
 
 			</div>
