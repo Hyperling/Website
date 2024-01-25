@@ -8,7 +8,7 @@
 				<p>
 					Monetary donations can be provided below through cryptocurrencies.
 				</p>
-				<ul class="indent"><li>
+				<!--<ul class="indent"><li>
 					<table class="border">
 						<thead>
 							<tr>
@@ -30,6 +30,17 @@
 							</tr>
 						</tbody>
 					</table>
+				</li></ul>-->
+
+				<strong>Monero | XMR</strong>
+				<ul class="indent"><li>
+					4ATk6owoMki46CuVfyAHS57FB5deqVFudTsaifQC1cfmcaQemgPEftcjZcW9DmcyfrfdRjxHQ9m4JAVSorYTgm6h8JnT7ao
 				</li></ul>
+
+				<strong>LBRY/Odysee Credit | LBC</strong>
+				<ul class="indent"><li>
+					bDWP6qZajtm9Q9EkryKTorRwKFd5eDbPJj
+				</li></ul>
+
 			</div>
 		</div>
