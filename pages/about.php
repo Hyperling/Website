@@ -37,10 +37,10 @@
 					traveling.
 				</p>
 				<p>
-					I live within the boundaries known as the "United States of
-					America". From birth to 2023 it was the subboundary "Indiana",
-					and since 2023 it is the subboundary "Arizona". As of 2024 I
-					am working to realize my goal of being a nomad.
+					I live within the boundaries known as "United States of America".
+					From birth to 2023 it was the subboundary "Indiana", and since
+					2023 it is the subboundary "Arizona". As of 2024 I am working to
+					realize my goal of being a nomad.
 				</p>
 			</div>
 		</div>
