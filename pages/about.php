@@ -16,7 +16,7 @@
 					My hobbies go further than coding and video making. I'm big
 					into health and believe it is humanity's most important asset. I
 					was fortunate in my early 20's and was able to heal myself and
-					lock in a great lifestyle after a life of chronic sickness. See
+					lock in a great lifestyle after a life of chronic illness. See
 					more below in <a href="#health">My Health Protocol</a>.
 					It also includes a link to my full history of changes.
 				</p>
