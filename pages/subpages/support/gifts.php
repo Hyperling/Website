@@ -17,7 +17,7 @@
 				<strong>Food Items</strong>
 				<ul>
 					<li>
-						Dried Mango, in order of my favorite brands:
+						Dried Mango
 						<ol>
 							<li>
 								<a href="https://www.madeinnature.com/products/mangoes-dried-fruit"
