@@ -11,17 +11,16 @@
 		</div>
 		<div class="row">
 			<div class="col-12 text">
-				<p>	
-					While I do not ask for anything, and prefer to take care of myself,
-					I acknowledge that some people enjoy gift giving and would like to
-					help me out. Below are my preferred ways to do this.
+				<p>
+					Your contributions are completely optional and very much
+					appreciated. Thank you for considering me and my work!
 				</p>
 			</div>
 		</div>
 
 <?php
-	include "subpages/support/gifts.php";
 	include "subpages/support/donate.php";
+	include "subpages/support/gifts.php";
 
 	include "helpers/body_close.php";
 ?>

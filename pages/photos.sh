@@ -28,7 +28,7 @@ echo "" >> $mainpage
 
 # Give the page a description.
 echo -e "\t\t<div class='row'>" >> $mainpage
-echo -e "\t\t\t<h1 class='col-12 title'>Photo Albums</h1>" >> $mainpage
+echo -e "\t\t\t<h1 class='col-12 title'>Media Albums</h1>" >> $mainpage
 echo -e "\t\t</div>" >> $mainpage
 
 echo -e "\t\t<div class='row'>" >> $mainpage
@@ -144,4 +144,5 @@ done
 $HELPER_DIR/body_close.php >> $mainpage
 
 cat $mainpage
+echo "<!-- Built from scratch. -->"
 exit 0

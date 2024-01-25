@@ -112,8 +112,7 @@ cat << EOF
 					to my new role models. "Sleep Water Sugar" as Durianrider used to say.
 					The
 					<a href="https://files.hyperling.com/media/HealthPriorities.pdf"
-						target="_blank">PDF
-					</a>
+						target="_blank">PDF</a>
 					on my main
 					<a href="/about/#health" target="_blank">Health</a>
 					section covers the 6 pillars that I found to be highly important.
@@ -211,7 +210,7 @@ cat << EOF
 				<p>
 					I appreciate you making it through this! Hopefully you've not only
 					learned a thing or two about me, but you've also obtained knowledge
-					that you can help improve your life. That's my goal after all, helping
+					that can help you improve your life. That's my goal after all, helping
 					others! Take care, friend. :)
 				</p>
 			</div>

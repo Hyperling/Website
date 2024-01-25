@@ -6,32 +6,29 @@
 		<div class="row">
 			<div class="col-12 text">
 				<p>
-					Please reach out before purchasing any of these to make sure that I do
-					not already have an excess supply. I can also provide a good address
-					in case I have moved around. I also recommend you buying these items 
-					for yourself if you'd like to add some delicious and nutritious food 
-					to your diet!
+					Please reach out before purchasing anything to make sure that I
+					am both 1) in need and 2) capable of receiving them somewhere.
 				</p>
-				<p>
-					Note that I normally only eat organic and clean food. Anything 
-					purchased as inorganic or with preservatives such as sulfites may be 
+				<!--<p>
+					Note that I normally only eat organic and clean food. Anything
+					purchased as inorganic or with preservatives such as sulfites may be
 					regifted or discarded upon receipt. Thank you for understanding.
-				</p>
-				<strong>Food Items</strong> 
+				</p>-->
+				<strong>Food Items</strong>
 				<ul>
 					<li>
-						Dried Mango, in order of my favorite brands:
+						Dried Mango
 						<ol>
 							<li>
 								<a href="https://www.madeinnature.com/products/mangoes-dried-fruit"
 									target="_blank" rel="noopener noreferrer"
-								>Made in Nature</a> (very sweet, strips are a good size)
+								>Made in Nature</a>
 							</li>
 							<li>
 								<a href="https://www.safeway.com/shop/product-details.960465482.html"
 									target="_blank" rel="noopener noreferrer"
-								>Safeway</a> (was delicious when purchased out West)
-							</li>
+								>Safeway</a>
+							</li><!--
 							<li>
 								<a href="https://www.target.com/p/organic-dried-mango-cheeks-12oz-good-38-gather-8482/-/A-81905926"
 									target="_blank" rel="noopener noreferrer"
@@ -41,35 +38,35 @@
 								<a href="https://foodtolive.com/shop/organic-mango-cheeks/"
 									target="_blank" rel="noopener noreferrer"
 								>Food To Live</a> (tastes kind of musty, cheeks larger than Target, but is edible)
-							</li>
+							</li>-->
 						</ol>
 					</li>
-					<li><a href="https://foodtolive.com/shop/organic-jasmine-rice/" 
+					<li><a href="https://foodtolive.com/shop/organic-jasmine-rice/"
 						target="_blank" rel="noopener noreferrer"
 					>
-						Jasmine Rice</a> (tends to be out of stock)
+						Jasmine Rice</a>
 					</li>
 					<li><a href="https://foodtolive.com/shop/organic-long-grain-white-rice/"
 						target="_blank" rel="noopener noreferrer"
 					>
-						Long Grain White Rice</a> (if jasmine is still out of stock)
-					</li>
+						Long Grain White Rice</a>
+					</li><!--
 					<li><a href="https://foodtolive.com/shop/organic-green-lentils/"
 						target="_blank" rel="noopener noreferrer"
 					>
-						Lentils</a> (prefer green or brown)
-					</li>
+						Lentils</a>
+					</li>-->
 					<li><a href="https://foodtolive.com/shop/organic-tri-color-quinoa/"
 						target="_blank" rel="noopener noreferrer"
 					>
-						Quinoa</a> (color does not matter)
-					</li>
-					<li><a href="https://foodtolive.com/shop/organic-amaranth/" 
+						Quinoa</a>
+					</li><!--
+					<li><a href="https://foodtolive.com/shop/organic-amaranth/"
 						target="_blank" rel="noopener noreferrer"
 					>
 						Amaranth
-					</a></li>
-				</ul>
+					</a></li>-->
+				</ul><!--
 				<strong>Bulk Teas</strong>
 				<ul>
 					<li><a href="https://www.davidsonstea.com/Tulsi_Pure_Leaves_Loose_Leaf.aspx"
@@ -82,9 +79,6 @@
 					>
 						Rooibos
 					</a></li>
-					<!--<li><a href="">
-						???
-					</a></li>-->
-				</ul>
+				</ul>-->
 			</div>
 		</div>

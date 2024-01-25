@@ -9,27 +9,38 @@
 		<div class="row">
 			<div class="col-12 text">
 				<p>
-					Hi there! My name is Chad, I am the primary content creator behind the
-					Hyperling and HyperVegan brands. Thank you for your interest!
+					Hi there! My name is Chad, I'm the primary content creator
+					behind Hyperling and HyperVegan. Thank you for your interest!
 				</p>
 				<p>
-					My hobbies go further than just coding and video making. I am big into
-					health and believe it is humanity's most important asset. I was fortunate
-					to have time off school/work/hobbies in my early 20's and was able to
-					lock in a great lifestyle after a life of chronic sickness. See more
-					below in <a href="#health">My Health Protocol</a>.
-					It also includes a link to my full history of changes.
+					My mission in life is to help others and make the world a better
+					place. I adhere to objective morality and strive to teach it to
+					others in order to create a world based on Freedom. I'd also like
+					to recreate a "Garden of Eden" on Earth. Imagine if everyone
+					planted at least one fruit tree or had a small square foot
+					garden. We would be in paradise!
 				</p>
 				<p>
-					I am also an avid gardener, focusing on the principles of nature-based
-					permaculture in order to grow fruits and vegetables, like in a Food
-					Forest system. This comes with other outdoor interests such as hiking,
-					camping, backpacking, foraging, and traveling.
+					Coding and videos aren't my only hobbies, I'm also big into
+					health. I see it as humanity's most important asset and take a
+					nature-based approach. I was fortunate in my early 20's and
+					learned to heal myself. After a childhood of chronic illness I
+					was able to lock in a powerful lifestyle and have not been sick
+					since! <a href="#health">My Health Protocol</a> contains more
+					information on that.
 				</p>
 				<p>
-					I live within the boundaries known as the United States of America.
-					From birth to 2023 it was the subboundaries of Indiana, and since 2023
-					it is the subboundaries of Arizona.
+					I'm also an avid gardener, focusing on the principles of
+					nature-based permaculture in order to grow fruits and vegetables.
+					Food forestry is one of my favorites! I have many other outdoor
+					interests too such as hiking, camping, backpacking, foraging, and
+					traveling.
+				</p>
+				<p>
+					I live within the boundaries known as "United States of America".
+					From birth to 2023 it was the subboundary "Indiana", and since
+					2023 it is the subboundary "Arizona". As of 2024 I am working to
+					realize my goal of being a nomad.
 				</p>
 			</div>
 		</div>
