@@ -46,8 +46,8 @@
 <div class="row">
 	<div class="col-12 text">
 		<p>
-			Ever wonder where the photos and videos that I take go since
-			I don't have social media? Try here!
+			I don't have social media, so where do my photos and videos go?
+			Try right here!
 		</p>
 		<ul class="indent"><li>
 			<a href="/photos">My Photos</a>
