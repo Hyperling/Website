@@ -11,11 +11,10 @@
 			</div>
 			<div class="row">
 				<div class="col-12 text">
-					<p> 
-						Thanks for visiting my site! It is the central hub of my activities, 
-						linking you to most of my projects and providing ways to contact and 
-						support me. I've also included information such as my health protocol 
-						which was currently only scattered throughout videos.
+					<p>
+						Thank you for visiting my site! My goal is to make the world a
+						better place. Hopefully you can find content here which helps
+						empower you to do the same!
 					</p>
 				</div>
 			</div>

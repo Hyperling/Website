@@ -1,11 +1,11 @@
 #!/usr/bin/php
 		<div class="row" id="programs">
-			<h2 class="col-12 header">My Public Programs</h2>
+			<h2 class="col-12 header">Public Programs</h2>
 		</div>
 		<div class="row">
 			<div class="col-12 text">
 				<p>
-					I write free software! Please feel welcome to browse and use anything I have created.
+					Please feel free to use any of my free software below.
 				</p>
 			</div>
 		</div>
@@ -26,7 +26,7 @@
 							<p>Carb Up! BETA</p>
 						</a>
 						<p>
-							Calculate cost-effectiveness of foods on a High Carb Low Fat lifestyle.
+							Calculate cost-effective foods on a High Carb Low Fat lifestyle.
 						</p>
 						<p>
 							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.carbupbeta"
@@ -55,7 +55,7 @@
 							<p>45 Minute Rule</p>
 						</a>
 						<p>
-							Determine when to go to bed if you'd like to wake up during light sleep.
+							Determine a good bedtime for waking during light sleep.
 						</p>
 						<p>
 							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule"
@@ -85,7 +85,7 @@
 							<p>Infinite Timer</p>
 						</a>
 						<p>
-							Play your notification sound at your chosen Hour:Minute:Second interval.
+							Play a notification at your chosen interval.
 						</p>
 						<p>
 							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.infinitetimer"
@@ -117,7 +117,7 @@
 							</p>
 						</a>
 						<p>
-							Began developing some games for fun. Not near a finished state, but "playable".
+							Started as a fun project for learning. Playable but unfinished.
 						</p>
 						<p>
 							[<a href="https://play.google.com/store/apps/details?id=apps.hyperling.com.platformer"
@@ -142,9 +142,9 @@
 		<div class="row">
 			<div class="col-12 text">
 				<p>
-					For a full list of programs including my Ansible automation,
-					Docker setup, source code for this website, and fun projects
-					like an obfuscating editor and music fixer, check out
+					For a full list of software including my Ansible automation,
+					Docker setup, source code for this website, and other
+					fun/random toys, check out
 					<a href="https://github.com/Hyperling" target="_blank">My Github</a>.
 				</p>
 			</div>
