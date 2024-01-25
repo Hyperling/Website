@@ -13,7 +13,7 @@
 				<div class="col-12 text">
 					<p>
 						Thank you for visiting my site! My goal is to make the world a
-						better place. Hopefully you can find content here which helps
+						better place. Hopefully you find content here which helps
 						empower you to do the same!
 					</p>
 				</div>
