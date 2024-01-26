@@ -55,7 +55,7 @@
 					Try right here!
 				</p>
 				<ul class="indent"><li>
-					<a href="/photos">My Photos</a>
+					<a href="/photos/">My Photos</a>
 				</li></ul>
 			</div>
 		</div>
