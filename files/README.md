@@ -1,4 +1,4 @@
-# Hyperling.com - Files
+# Hyperling.com - files/
 
 Place files into this folder which should be used as static resources.
 Examples would be APKs, zip files, images, text files, etc.
