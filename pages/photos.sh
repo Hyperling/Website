@@ -28,7 +28,7 @@ echo "" >> $mainpage
 
 # Give the page a description.
 echo -e "\t\t<div class='row'>" >> $mainpage
-echo -e "\t\t\t<h1 class='col-12 title'>Media Albums</h1>" >> $mainpage
+echo -e "\t\t\t<h1 class='col-12 title'>Albums</h1>" >> $mainpage
 echo -e "\t\t</div>" >> $mainpage
 
 echo -e "\t\t<div class='row'>" >> $mainpage
@@ -74,7 +74,6 @@ ls $PHOTOS_DIR/ | sort -r | while read album; do
 	echo -e "\t\t\t<h1 class='col-12 title'>$album_name</h1>" >> $subpage
 	echo -e "\t\t</div>" >> $subpage
 
-	echo -e "\t\t<div class='row text'>" >> $subpage
 	ls $PHOTOS_DIR/$album/* | sort | while read photo; do
 		# Do not include the index page.
 		if [[ $photo == *"index.html" ]]; then
@@ -104,10 +103,20 @@ ls $PHOTOS_DIR/ | sort -r | while read album; do
 			echo -e "</a></li>" >> $mainpage
 		fi
 
-		# Put in the subpage HTML.
+		## Put in the subpage HTML ##
+		# Set the count if this is the first loop.
+		if [[ -z $count ]]; then
+			count=0
+		fi
+		# Add a row for the next 2 images.
+		if (( $count % 2 == 0 )); then
+			echo -e "\t\t<div class='row text'>" >> $subpage
+		fi
+		# Add the container for the image and its text.
 		echo -e "\t\t\t<div class='col-6 center'>" >> $subpage
 		echo -en "\t\t\t\t<a href=/$photo target='_blank' " >> $subpage
 		echo -e "rel='noopener noreferrer'>" >> $subpage
+		# Determine what type of media it is, and how to display it.
 		if [[ $photo == *".mp4" ]]; then
 			echo -e "\t\t\t\t\t<video width='320px' controls>" >> $subpage
 			echo -e "\t\t\t\t\t\t<source src='/$photo' type=video/mp4>" >> $subpage
@@ -118,13 +127,18 @@ ls $PHOTOS_DIR/ | sort -r | while read album; do
 		else
 			echo -e "\t\t\t\t\t<img src='/$photo'/>" >> $subpage
 		fi
-
-		# Add a descriptive link.
+		# Check if it needs an extra descriptive detail.
 		echo -en "\t\t\t\t\t<p>$filename" >> $subpage
 		if [[ $photo == *".mp4" ]]; then
 			echo -en " [VIDEO]" >> $subpage
 		fi
+		# Close the image description and its link.
 		echo -e "</p>\n\t\t\t\t</a>\n\t\t\t</div>" >> $subpage
+		# Close the row after an odd count.
+		if (( $count % 2 == 1 )); then
+			echo -e "\t\t</div>" >> $subpage
+		fi
+		count=$(( count + 1 ))
 	done
 	echo -e "\t\t</div>" >> $subpage
 

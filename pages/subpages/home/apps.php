@@ -44,35 +44,6 @@
 				</figure>
 			</div>
 
-			<div class="col-6" id="sleep">
-				<figure>
-					<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule"
-						target="_blank" rel="noopener noreferrer">
-						<img loading="lazy" width="100%" height="100%" alt="45minuterule"
-							src="https://files.hyperling.com/media/t45mr.png"
-						/>
-						<figcaption>
-							<p>45 Minute Rule</p>
-						</a>
-						<p>
-							Determine a good bedtime for waking during light sleep.
-						</p>
-						<p>
-							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule"
-								target="_blank" rel="noopener noreferrer">Play Store</a>]
-							[<a href="https://files.hyperling.com/apks/45MinuteRule.apk">APK</a>]
-						</p>
-						<!--<p>
-							TBD:
-							<s>
-								[<a target="_blank" rel="noopener noreferrer">F-Droid</a>]
-								[<a target="_blank" rel="noopener noreferrer">Github</a>]
-							</s>
-						</p>-->
-					</figcaption>
-				</figure>
-			</div>
-
 			<div class="col-6" id="timer">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.infinitetimer"
@@ -91,6 +62,37 @@
 							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.infinitetimer"
 								target="_blank" rel="noopener noreferrer">Play Store</a>]
 							[<a href="https://files.hyperling.com/apks/InfiniteTimer.apk">APK</a>]
+						</p>
+						<!--<p>
+							TBD:
+							<s>
+								[<a target="_blank" rel="noopener noreferrer">F-Droid</a>]
+								[<a target="_blank" rel="noopener noreferrer">Github</a>]
+							</s>
+						</p>-->
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+
+		<div class="row text center">
+			<div class="col-6" id="sleep">
+				<figure>
+					<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule"
+						target="_blank" rel="noopener noreferrer">
+						<img loading="lazy" width="100%" height="100%" alt="45minuterule"
+							src="https://files.hyperling.com/media/t45mr.png"
+						/>
+						<figcaption>
+							<p>45 Minute Rule</p>
+						</a>
+						<p>
+							Determine a good bedtime for waking during light sleep.
+						</p>
+						<p>
+							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule"
+								target="_blank" rel="noopener noreferrer">Play Store</a>]
+							[<a href="https://files.hyperling.com/apks/45MinuteRule.apk">APK</a>]
 						</p>
 						<!--<p>
 							TBD:

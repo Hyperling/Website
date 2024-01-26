@@ -105,4 +105,4 @@ dist
 
 ## Above is Github's recommendations for Node.js. Below are my additions. ##
 package-lock.json
-files/photos/*
+files/*
