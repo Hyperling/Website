@@ -110,7 +110,7 @@ ls $PHOTOS_DIR/ | sort -r | while read album; do
 		fi
 		# Add a row for the next 2 images.
 		if (( $count % 2 == 0 )); then
-			echo -e "\t\t<div class='row'>" >> $subpage
+			echo -e "\t\t<div class='row text'>" >> $subpage
 		fi
 		# Add the container for the image and its text.
 		echo -e "\t\t\t<div class='col-6 center'>" >> $subpage
