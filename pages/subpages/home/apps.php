@@ -73,7 +73,9 @@
 					</figcaption>
 				</figure>
 			</div>
+		</div>
 
+		<div class="row text center">
 			<div class="col-6" id="sleep">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule"
