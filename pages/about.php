@@ -7,10 +7,12 @@
 			<h1 class="col-12 title">Who Am I?</h1>
 		</div>
 		<div class="row">
-			<div class="col-4" >
-				<img src="/files/photos/20230499_HughTrail/20230423165239277_Chad-on-the-mountains.shrunk20230831.jpg">
+			<div class="col-12 header center" >
+				<img src="/files/photos/20231202_Picacho-Peak/20231202104115608_me-proving-that-I-made-it-to-the-top-;).shrunk20231204.jpg">
 			</div>
-			<div class="col-8 text">
+		</div>
+		<div class="row">
+			<div class="col-12 text">
 				<p>
 					Hi there! My name is Chad, I'm the primary content creator
 					behind Hyperling and HyperVegan. Thank you for your interest!

@@ -7,7 +7,12 @@
 			<h1 class="col-12 title">Contact</h1>
 		</div>
 		<div class="row">
-			<div class="col-12 header">
+			<div class="col-12 header center" >
+				<img src="/files/photos/20231118_Wizard-Friend-In-Arizona/20231121140823190_Apache-Lake,-Closer-Shot-Of-Our-Bay-From-Nearest-Hill.shrunk20231125.jpg">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 title">
 				<p>
 					Timely responses are not guarenteed, as I spend a majority of
 					my time offline and enjoy traveling in signal-free zones.
