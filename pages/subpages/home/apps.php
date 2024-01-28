@@ -20,7 +20,7 @@
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.carbupbeta"
 						target="_blank" rel="noopener noreferrer">
 						<img width="100%" height="100%" alt="ctfu_image"
-							src="https://files.hyperling.com/media/ctfu.png"
+							src="/files/media/icons/ctfu.png"
 						/>
 						<figcaption>
 							<p>Carb Up! BETA</p>
@@ -31,7 +31,7 @@
 						<p>
 							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.carbupbeta"
 								target="_blank" rel="noopener noreferrer">Play Store</a>]
-							[<a href="https://files.hyperling.com/apks/CarbUpBeta.apk">APK</a>]
+							[<a href="/files/apks/CarbUpBeta.apk">APK</a>]
 						</p>
 						<!--<p>
 							TBD:
@@ -50,7 +50,7 @@
 						target="_blank" rel="noopener noreferrer"
 					>
 						<img loading="lazy" width="100%" height="100%" alt="infinitetimer_image"
-							src="https://files.hyperling.com/media/infinitetimer.png"
+							src="/files/media/icons/infinitetimer.png"
 						/>
 						<figcaption>
 							<p>Infinite Timer</p>
@@ -61,7 +61,7 @@
 						<p>
 							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.infinitetimer"
 								target="_blank" rel="noopener noreferrer">Play Store</a>]
-							[<a href="https://files.hyperling.com/apks/InfiniteTimer.apk">APK</a>]
+							[<a href="/files/apks/InfiniteTimer.apk">APK</a>]
 						</p>
 						<!--<p>
 							TBD:
@@ -81,7 +81,7 @@
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule"
 						target="_blank" rel="noopener noreferrer">
 						<img loading="lazy" width="100%" height="100%" alt="45minuterule"
-							src="https://files.hyperling.com/media/t45mr.png"
+							src="/files/media/icons/t45mr.png"
 						/>
 						<figcaption>
 							<p>45 Minute Rule</p>
@@ -92,7 +92,7 @@
 						<p>
 							[<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule"
 								target="_blank" rel="noopener noreferrer">Play Store</a>]
-							[<a href="https://files.hyperling.com/apks/45MinuteRule.apk">APK</a>]
+							[<a href="/files/apks/45MinuteRule.apk">APK</a>]
 						</p>
 						<!--<p>
 							TBD:
@@ -111,7 +111,7 @@
 						target="_blank" rel="noopener noreferrer"
 					>
 						<img loading="lazy" width="100%" height="100%" alt="hypergames_image"
-							src="https://files.hyperling.com/media/hypergames.png"
+							src="/files/media/icons/hypergames.png"
 						/>
 						<figcaption>
 							<p>
@@ -124,7 +124,7 @@
 						<p>
 							[<a href="https://play.google.com/store/apps/details?id=apps.hyperling.com.platformer"
 								target="_blank" rel="noopener noreferrer">Play Store</a>]
-							[<a href="https://files.hyperling.com/apks/HyperGames.apk">APK</a>]
+							[<a href="/files/apks/HyperGames.apk">APK</a>]
 						</p>
 						<!--<p>
 							TBD:
