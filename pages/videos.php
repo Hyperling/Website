@@ -11,7 +11,7 @@
 		</div>
 		<div class="row">
 			<div class="col-12 header center" >
-				<img src="/files/photos/20230908_Chad_And_Cleo_Touring_Transition_Zone/20230909081850318.shrunk20230913.jpg">
+				<img src="/files/media/icons/videos.jpg">
 			</div>
 		</div>
 		<div class="row">

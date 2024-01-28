@@ -8,7 +8,7 @@
 		</div>
 		<div class="row">
 			<div class="col-12 header center" >
-				<img src="/files/photos/20231202_Picacho-Peak/20231202104115608_me-proving-that-I-made-it-to-the-top-;).shrunk20231204.jpg">
+				<img src="/files/media/icons/about.jpg">
 			</div>
 		</div>
 		<div class="row">

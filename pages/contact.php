@@ -8,7 +8,7 @@
 		</div>
 		<div class="row">
 			<div class="col-12 header center" >
-				<img src="/files/photos/20231118_Wizard-Friend-In-Arizona/20231121140823190_Apache-Lake,-Closer-Shot-Of-Our-Bay-From-Nearest-Hill.shrunk20231125.jpg">
+				<img src="/files/media/icons/contact.jpg">
 			</div>
 		</div>
 		<div class="row">
