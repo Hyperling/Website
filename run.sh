@@ -41,13 +41,13 @@ done
 # Ensure we are executing from this file's directory.
 cd $DIR
 
-# Check if any dependencies need installed.
+echo "`date` - Check if any dependencies need installed."
 if [[ ! `which php` || ! `which node`|| ! `which npm` ]]; then
 	sudo apt install -y php-fpm nodejs npm
 fi
 
-# Fix any file permissions
 # Directories and allowed page types are executable, others are not.
+echo "`date` - Fix any strange file permissions."
 find ./pages/ | while read file; do
 	if [[ $file == *".php" || $file == *".sh" || -d $file ]]; then
 		mode=755
@@ -57,12 +57,16 @@ find ./pages/ | while read file; do
 	chmod -c $mode $file
 done
 
+echo "`date` - Check if any modules need updated/installed."
 npm install
 
 ## Main ##
 
+echo "`date` - Start website API."
 ./main.js $ports
+status=$?
 
 ## Finish ##
 
-exit $?
+echo "`date` - Exiting with status '$status'."
+exit $status
