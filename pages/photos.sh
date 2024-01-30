@@ -152,11 +152,12 @@ ls $PHOTOS_DIR/ | sort -r | while read album; do
 
 	# Close out the ALBUM's page.
 	$HELPER_DIR/body_close.php >> $subpage
+	echo "<!-- Built on `date`. -->" >> $subpage
 done
 
 # Finish the web page.
 $HELPER_DIR/body_close.php >> $mainpage
+echo "<!-- Built on `date`. -->" >> $mainpage
 
 cat $mainpage
-echo "<!-- Built from scratch. -->"
 exit 0
