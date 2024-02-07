@@ -7,6 +7,12 @@ DIR=`dirname $0`
 header="<html>\n\t<header>\n\t\t<title>ALBUM</title>\n\t</header>\n\t<body>"
 footer="\n\t</body>\n</html>"
 
+# Functions
+function remove_problem_strings {
+	file="$1"
+	sed -i -e 's/#!\/usr\/bin\/php//g' $file
+}
+
 # Move to the main directory.
 cd $DIR/..
 
@@ -153,11 +159,15 @@ ls $PHOTOS_DIR/ | sort -r | while read album; do
 	# Close out the ALBUM's page.
 	$HELPER_DIR/body_close.php >> $subpage
 	echo "<!-- Built on `date`. -->" >> $subpage
+
+	remove_problem_strings $subpage
 done
 
 # Finish the web page.
 $HELPER_DIR/body_close.php >> $mainpage
 echo "<!-- Built on `date`. -->" >> $mainpage
+
+remove_problem_strings $mainpage
 
 cat $mainpage
 exit 0
