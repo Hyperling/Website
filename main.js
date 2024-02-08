@@ -38,6 +38,10 @@ if (ports.length === 0) {
 	ports.push(8080);
 }
 
+const stringsToRemove = [
+	RegExp("#!/usr/bin/php\n", "g")
+]
+
 //// Functions ////
 
 /* Code exists inside a main function so that we may use async/await.
@@ -133,8 +137,12 @@ async function main() {
 	for (let key in pages) {
 		console.log(" * Creating router for", key);
 		router.get("/" + key, function (req,res) {
-			console.log(key, "fulfilling request to", req.socket.remoteAddress, "asking for", req.url)
-			res.send("" + execSync(pages[key]));
+			console.log(key, "fulfilling request to", req.socket.remoteAddress, "asking for", req.url);
+			let html = "" + execSync(pages[key]);
+			stringsToRemove.forEach(string => {
+				html = html.replace(string, "");
+			});
+			res.send(html);
 		});
 
 		/* Append the page to the sitemap variables.
@@ -230,6 +238,9 @@ async function main() {
 		//console.log(res);
 		console.log("*wildcard* replying to", req.socket.remoteAddress, "asking for", req.url)
 		let html = execSync("./pages/home.php");
+		stringsToRemove.forEach(string => {
+			html = html.replace(string, "");
+		});
 		res.send(html);
 	});
 
