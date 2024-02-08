@@ -237,7 +237,7 @@ async function main() {
 		//console.log(req);
 		//console.log(res);
 		console.log("*wildcard* replying to", req.socket.remoteAddress, "asking for", req.url)
-		let html = execSync("./pages/home.php");
+		let html = "" + execSync("./pages/home.php");
 		stringsToRemove.forEach(string => {
 			html = html.replace(string, "");
 		});
