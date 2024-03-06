@@ -19,6 +19,7 @@
 						Hyperling's Health Protocol [PDF]
 					</a>
 				</li></ul>
+
 				<p>
 					There is also an audio companion which can be found here:
 				</p>
@@ -34,6 +35,17 @@
 						target="_blank" rel="noopener noreferrer"
 					>
 						Hyperling's Health Protocol [AUDIO] | Modern Day Wizards
+					</a>
+				</li></ul>
+
+				<p>
+					Curious how I made it? Check out its GitHub project:
+				</p>
+				<ul class="indent"><li>
+					<a href="https://github.com/Hyperling/HealthProtocol"
+						target="_blank" rel="noopener noreferrer"
+					>
+						Hyperling's Health Protocol [CODE] | GitHub
 					</a>
 				</li></ul>
 			</div>
