@@ -21,23 +21,14 @@
 				</li></ul>
 
 				<p>
-					There is also an audio companion which can be found here:
+					There is also an audio version which can be found here:
 				</p>
 				<ul class="indent"><li>
-					TBD:
-					<s><a href=""
+					<a href="https://odysee.com/@HyperVegan:2/20240307_MyHealthProtocolAudio:1"
 						target="_blank" rel="noopener noreferrer"
 					>
 						Hyperling's Health Protocol [AUDIO] | Odysee
-					</a></s>
-				</li></ul>
-				<ul class="indent"><li>
-					TBD:
-					<s><a href=""
-						target="_blank" rel="noopener noreferrer"
-					>
-						Hyperling's Health Protocol [AUDIO] | Modern Day Wizards
-					</a></s>
+					</a>
 				</li></ul>
 
 				<p>
@@ -48,6 +39,24 @@
 						target="_blank" rel="noopener noreferrer"
 					>
 						Hyperling's Health Protocol [CODE] | GitHub
+					</a>
+				</li></ul>
+
+				<p>
+					Related URLs:
+				</p>
+				<ul class="indent"><li>
+					<a href="https://odysee.com/@HyperVegan:2/20240306_MyHealthProtocol-Book:9"
+						target="_blank" rel="noopener noreferrer"
+					>
+						Book Release Announcement | Odysee
+					</a>
+				</li></ul>
+				<ul class="indent"><li>
+					<a href="https://www.drmcdougall.com/education/information/cpb/"
+						target="_blank" rel="noopener noreferrer"
+					>
+						Dr. McDougall's Color Picture Book | DrMcDougall.com
 					</a>
 				</li></ul>
 			</div>
