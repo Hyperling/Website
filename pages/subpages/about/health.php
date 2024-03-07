@@ -5,6 +5,10 @@
 		<div class="row">
 			<div class="col-12 text">
 				<p>
+					I've written an eBook with the same title! Find it
+					<a href="/health/">here</a>.
+				</p>
+				<p>
 					I have not been sick since I cleaned up my lifestyle in 2014. No colds,
 					flus, fevers, etc. My suggestions for accomplishing this are simple.
 					Consistently:
