@@ -15,7 +15,7 @@
 					Please click the link below to download the PDF:
 				</p>
 				<ul class="indent"><li>
-					<a href="/files/media/documents/HyperlingHealthProtocol.pdf">
+					<a href="/files/media/documents/HyperlingsHealthProtocol.pdf">
 						Hyperling's Health Protocol [PDF]
 					</a>
 				</li></ul>
@@ -24,18 +24,20 @@
 					There is also an audio companion which can be found here:
 				</p>
 				<ul class="indent"><li>
-					<a href=""
+					TBD:
+					<s><a href=""
 						target="_blank" rel="noopener noreferrer"
 					>
 						Hyperling's Health Protocol [AUDIO] | Odysee
-					</a>
+					</a></s>
 				</li></ul>
 				<ul class="indent"><li>
-					<a href=""
+					TBD:
+					<s><a href=""
 						target="_blank" rel="noopener noreferrer"
 					>
 						Hyperling's Health Protocol [AUDIO] | Modern Day Wizards
-					</a>
+					</a></s>
 				</li></ul>
 
 				<p>
