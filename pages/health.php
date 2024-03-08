@@ -12,7 +12,7 @@
 		<div class="row">
 			<div class="col-12 text">
 				<p>
-					Please click the following link to download the PDF:
+					Please click the following link to download the 12-page PDF:
 				</p>
 				<ul class="indent"><li>
 					<a href="/files/media/documents/HyperlingsHealthProtocol.pdf">
@@ -21,7 +21,7 @@
 				</li></ul>
 
 				<p>
-					There is also an audio version which can be found here:
+					There is also a 30 minute audio version which can be found here:
 				</p>
 				<ul class="indent"><li>
 					<a href="https://odysee.com/@HyperVegan:2/20240307_MyHealthProtocolAudio:1"
