@@ -16,20 +16,29 @@
 				</p>
 				<ul class="indent"><li>
 					<a href="/files/media/documents/HyperlingsHealthProtocol.pdf">
-						Hyperling's Health Protocol [PDF]
+						Hyperling's Health Protocol [PDF] | Direct Download
 					</a>
 				</li></ul>
 
 				<p>
 					There is also a 30 minute audio version which can be found here:
 				</p>
-				<ul class="indent"><li>
-					<a href="https://odysee.com/@HyperVegan:2/20240307_MyHealthProtocolAudio:1"
-						target="_blank" rel="noopener noreferrer"
-					>
-						Hyperling's Health Protocol [AUDIO] | Odysee
-					</a>
-				</li></ul>
+				<ul class="indent">
+					<li>
+						<a href="/files/media/documents/HyperlingsHealthProtocol.mp3"
+							target="_blank" rel="noopener noreferrer"
+						>
+							Hyperling's Health Protocol [MP3] | Direct Download
+						</a>
+					</li>
+					<li>
+						<a href="https://odysee.com/@HyperVegan:2/20240307_MyHealthProtocolAudio:1"
+							target="_blank" rel="noopener noreferrer"
+						>
+							Hyperling's Health Protocol [MP3] | Odysee
+						</a>
+					</li>
+				</ul>
 
 				<p>
 					Curious how I made it? Check out its GitHub project:
@@ -45,20 +54,22 @@
 				<p>
 					Related URLs:
 				</p>
-				<ul class="indent"><li>
-					<a href="https://odysee.com/@HyperVegan:2/20240306_MyHealthProtocol-Book:9"
-						target="_blank" rel="noopener noreferrer"
-					>
-						Book Release Announcement | Odysee
-					</a>
-				</li></ul>
-				<ul class="indent"><li>
-					<a href="https://www.drmcdougall.com/education/information/cpb/"
-						target="_blank" rel="noopener noreferrer"
-					>
-						Dr. McDougall's Color Picture Book | DrMcDougall.com
-					</a>
-				</li></ul>
+				<ul class="indent">
+					<li>
+						<a href="https://odysee.com/@HyperVegan:2/20240306_MyHealthProtocol-Book:9"
+							target="_blank" rel="noopener noreferrer"
+						>
+							Book Release Announcement | Odysee
+						</a>
+					</li>
+					<li>
+						<a href="https://www.drmcdougall.com/education/information/cpb/"
+							target="_blank" rel="noopener noreferrer"
+						>
+							Dr. McDougall's Color Picture Book | DrMcDougall.com
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 
