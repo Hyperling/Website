@@ -10,6 +10,17 @@
 		<div class="row">
 			<h1 class="col-12 title">My Health Protocol</h1>
 		</div>
+
+		<div class="row">
+			<div class="col-12 header">
+				<p>
+					Learn about my 6-pillar definition of Health and receive tips on
+					keeping each of them at peak condition. Also contains bonus
+					material and an explanation of my healing achievements!
+				</p>
+			</div>
+		</div>
+
 		<div class="row">
 			<div class="col-12 text">
 				<p>
