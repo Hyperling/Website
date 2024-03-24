@@ -9,18 +9,19 @@
 					<a href="/health/">here</a>.
 				</p>
 				<p>
-					I have not been sick since I cleaned up my lifestyle in 2014. No colds,
-					flus, fevers, etc. My suggestions for accomplishing this are simple.
-					Consistently:
+					I have not been sick since I cleaned up my lifestyle in 2014. No
+					colds, flus, fevers, etc. My suggestions for accomplishing this
+					are simple. Consistently:
 					<ul class="indent">
 						<li>eat enough clean food,</li>
 						<li>drink enough clean water,</li>
 						<li>get enough good sleep, and</li>
 						<li>enjoy a low-stress life.</li>
 					</ul>
-					Unfortunately our society today has many different views on how to
-					do these things, most of which I would say do not work. A full list of
-					my protocol without getting too into the weeds can be found here:
+					Unfortunately our society today has many different views on how
+					to do these things, most of which I would say do not work. A
+					quick list of my protocol without getting too into the weeds can
+					be found here:
 				</p>
 				<!-- URL/image/something to MyPriorities.pdf on files.hyperling.com -->
 				<a href="/files/media/documents/HealthPriorities.pdf" target="_blank">
@@ -37,10 +38,11 @@
 					<a href="https://www.dresselstyn.com/"
 						target="_blank" rel="noopener noreferrer"
 					>Dr Caldwell Esselstyn</a>.
-					All of them have plenty of free videos and resources online, there is
-					no need to buy their books unless you want to support them.	They have
-					been reversing sickness for decades and their plans follow a similar
-					whole food carb-based lifestyle such as my own, with NO OIL!
+					All of them have plenty of free videos and resources online,
+					there is no need to buy their books unless you want to support
+					them.	They have been reversing sickness for decades and their
+					plans follow a similar whole food carb-based lifestyle such as
+					my own, with NO OIL!
 				</p>
 				<!-- Need to rewrite or remove this to be more positive.
 				<p>
@@ -57,7 +59,8 @@
 				</p>
 				-->
 				<p>
-					For more information on my specifics and why I came to this lifestyle please visit
+					For more information on my specifics and why I came to this
+					lifestyle please visit
 					<a href="/journey/">My Journey</a>.
 				</p>
 			</div>
