@@ -14,9 +14,13 @@
 		<div class="row">
 			<div class="col-12 header">
 				<p>
-					Learn about my 6-pillar definition of Health and receive tips on
-					keeping each of them at peak condition. Also contains bonus
-					material and an explanation of my healing achievements!
+					I define health as a 6-pillar system based on body dynamics,
+					environment, and mentality. "Hyperling's Health Protocol" is my
+					explanation of how to keep each pillar in peak condition by
+					living as naturally as possible in an industrial world. Some
+					advice is common with the mainstream, while others would not be
+					known by the average person. Also contains bonus material and an
+					explanation of my healing achievements. I hope you enjoy!
 				</p>
 			</div>
 		</div>
