@@ -6,10 +6,9 @@
 			<div class="col-12 text">
 				<p>
 					I'm a self-taught, college graduated, and professional software
-					developer with early a decade of experience in the corporate
+					developer with nearly a decade of experience in the corporate
 					world. I have been playing with Linux from a young age and have
-					always enjoyed doing system administration type activities such
-					as running servers for friends and family.
+					always enjoyed doing system administration type activities.
 				<p>
 				</p>
 					Much of my career has focused on back-end type systems such as
