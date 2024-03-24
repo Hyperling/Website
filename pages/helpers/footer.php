@@ -9,7 +9,7 @@
 		<div class="row" id="footer">
 			<div class="col-12 text center">
 				Have a Health or Freedom related project which could use my help?
-				<a href="mailto:me@hyperling.com">Please let me know!</a>
+				<a href="mailto:me@hyperling.com">Please let me know</a>!
 			</div>
 		</div>
 		<div class="row">
