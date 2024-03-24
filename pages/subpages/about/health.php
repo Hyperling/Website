@@ -5,8 +5,8 @@
 		<div class="row">
 			<div class="col-12 text">
 				<p>
-					I've written an eBook with the same title! Find it
-					<a href="/health/">here</a>.
+					I've written an eBook with the same title!
+					<a href="/health/">Find it here</a>.
 				</p>
 				<p>
 					I have not been sick since I cleaned up my lifestyle in 2014. No
