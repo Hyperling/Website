@@ -20,7 +20,7 @@
 					living as naturally as possible in an industrial world. Some
 					advice is common with the mainstream, while others would not be
 					known by the average person. Also contains bonus material and an
-					explanation of my healing achievements. I hope you enjoy!
+					explanation of my healing achievements. Please enjoy!
 				</p>
 			</div>
 		</div>
