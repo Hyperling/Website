@@ -3,6 +3,7 @@
 	Page to provide ways people can support me.
 -->
 <?php
+	$GLOBALS["ADVISORY"] = false;
 	include "helpers/body_open.php";
 ?>
 
@@ -12,11 +13,11 @@
 		<div class="row">
 			<div class="col-12 text">
 				<p>
-					Please click the following link to download the 12-page PDF:
+					Please click the link below to download the 12-page PDF:
 				</p>
 				<ul class="indent"><li>
 					<a href="/files/media/documents/HyperlingsHealthProtocol.pdf">
-						Hyperling's Health Protocol [PDF] | Direct Download
+						[PDF] | Direct Download
 					</a>
 				</li></ul>
 
@@ -28,14 +29,14 @@
 						<a href="/files/media/documents/HyperlingsHealthProtocol.mp3"
 							target="_blank" rel="noopener noreferrer"
 						>
-							Hyperling's Health Protocol [MP3] | Direct Download
+							[MP3] | Direct Download
 						</a>
 					</li>
 					<li>
 						<a href="https://odysee.com/@HyperVegan:2/20240307_MyHealthProtocolAudio:1"
 							target="_blank" rel="noopener noreferrer"
 						>
-							Hyperling's Health Protocol [MP3] | Odysee
+							[MP3] | Odysee
 						</a>
 					</li>
 				</ul>
@@ -47,7 +48,7 @@
 					<a href="https://github.com/Hyperling/HealthProtocol"
 						target="_blank" rel="noopener noreferrer"
 					>
-						Hyperling's Health Protocol [CODE] | GitHub
+						[CODE] | GitHub
 					</a>
 				</li></ul>
 
