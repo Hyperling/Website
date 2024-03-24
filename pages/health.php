@@ -68,7 +68,7 @@
 				</li></ul>
 
 				<p>
-					Related URLs:
+					Other related URLs:
 				</p>
 				<ul class="indent">
 					<li>
