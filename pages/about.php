@@ -35,8 +35,8 @@
 					information on that.
 				</p>
 				<p>
-					I'm also an avid gardener, focusing on the principles of
-					nature-based permaculture in order to grow fruits and vegetables.
+					I'm also an avid gardener, focusing on the principles of native
+					plants and permaculture in order to grow fruits and vegetables.
 					Food forestry is one of my favorites! I have many other outdoor
 					interests too such as hiking, camping, backpacking, foraging, and
 					traveling.
