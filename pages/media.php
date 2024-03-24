@@ -59,6 +59,22 @@
 			</div>
 		</div>
 
+<!-- WIP
+		<div class="row">
+			<h1 class="col-12 title">Art / Poetry</h1>
+		</div>
+		<div class="row">
+			<div class="col-12 text">
+				<p>
+					TBD
+				</p>
+				<ul class="indent"><li>
+					<a href="/art/">TBD</a>
+				</li></ul>
+			</div>
+		</div>
+-->
+
 		<div class="row">
 			<h1 class="col-12 title">Personal Media</h1>
 		</div>

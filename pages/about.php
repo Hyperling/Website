@@ -25,6 +25,7 @@
 					planted at least one fruit tree or had a small square foot
 					garden. We would be in paradise!
 				</p>
+				<!-- TBD change this to 'Coding, videos, and art' :) -->
 				<p>
 					Coding and videos aren't my only hobbies, I'm also big into
 					health. I see it as humanity's most important asset and take a
@@ -35,8 +36,8 @@
 					information on that.
 				</p>
 				<p>
-					I'm also an avid gardener, focusing on the principles of
-					nature-based permaculture in order to grow fruits and vegetables.
+					I'm also an avid gardener, focusing on the principles of native
+					plants and permaculture in order to grow fruits and vegetables.
 					Food forestry is one of my favorites! I have many other outdoor
 					interests too such as hiking, camping, backpacking, foraging, and
 					traveling.
