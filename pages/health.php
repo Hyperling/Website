@@ -28,7 +28,7 @@
 		<div class="row">
 			<div class="col-12 text">
 				<p>
-					Please click the link below to download the 12-page PDF:
+					Click the link below to download the 12-page PDF:
 				</p>
 				<ul class="indent"><li>
 					<a href="/files/media/documents/HyperlingsHealthProtocol.pdf">
