@@ -1,4 +1,24 @@
 #!/usr/bin/php
+		<div class="row" id="experience">
+			<h2 class="col-12 header">My Profession</h2>
+		</div>
+		<div class="row">
+			<div class="col-12 text">
+				<p>
+					I'm a self-taught, college graduated, and professional software
+					developer with early a decade of experience in the corporate
+					world. I have been playing with Linux from a young age and have
+					always enjoyed doing system administration type activities such
+					as running servers for friends and family.
+				<p>
+				</p>
+					Much of my career has focused on back-end type systems such as
+					databases as well as optimizing workflows. I've learned many
+					languages over the years and hope to learn many more. In my free
+					time I have also enjoyed writing user-facing apps for Android.
+				</p>
+			</div>
+		</div>
 		<div class="row" id="programs">
 			<h2 class="col-12 header">Public Programs</h2>
 		</div>
@@ -119,7 +139,8 @@
 							</p>
 						</a>
 						<p>
-							Started as a fun project for learning. Playable but unfinished.
+							Started as a fun project for learning.
+							Playable but unfinished.
 						</p>
 						<p>
 							[<a href="https://play.google.com/store/apps/details?id=apps.hyperling.com.platformer"
