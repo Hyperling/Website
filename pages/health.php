@@ -10,10 +10,25 @@
 		<div class="row">
 			<h1 class="col-12 title">My Health Protocol</h1>
 		</div>
+
+		<div class="row">
+			<div class="col-12 header">
+				<p>
+					I define health as a 6-pillar system based on body dynamics,
+					environment, and mentality. "Hyperling's Health Protocol" is my
+					explanation of how to keep each pillar in peak condition by
+					living as naturally as possible in an industrial world. Some
+					advice is common with the mainstream, while others would not be
+					known by the average person. Also contains bonus material and an
+					explanation of my healing achievements. Please enjoy!
+				</p>
+			</div>
+		</div>
+
 		<div class="row">
 			<div class="col-12 text">
 				<p>
-					Please click the link below to download the 12-page PDF:
+					Click the link below to download the 12-page PDF:
 				</p>
 				<ul class="indent"><li>
 					<a href="/files/media/documents/HyperlingsHealthProtocol.pdf">
@@ -53,7 +68,7 @@
 				</li></ul>
 
 				<p>
-					Related URLs:
+					Other related URLs:
 				</p>
 				<ul class="indent">
 					<li>
