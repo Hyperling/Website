@@ -25,6 +25,7 @@
 					planted at least one fruit tree or had a small square foot
 					garden. We would be in paradise!
 				</p>
+				<!-- TBD change this to 'Coding, videos, and art' :) -->
 				<p>
 					Coding and videos aren't my only hobbies, I'm also big into
 					health. I see it as humanity's most important asset and take a
