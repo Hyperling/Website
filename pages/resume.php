@@ -15,7 +15,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<h2 class="col-12 header">Current Status : Full Time</h2>
+			<h2 class="col-12 header">Current Status : Full Time Contractor</h2>
 			<div class="col-12 text">
 				<p>
 					Interested in hiring me? Please find my resume below!
