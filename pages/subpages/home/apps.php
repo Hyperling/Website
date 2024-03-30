@@ -16,6 +16,7 @@
 					languages over the years and hope to learn many more. In my free
 					time I have also enjoyed writing user-facing apps for Android.
 				</p>
+				<p><a href="/resume/">My resume can be found here</a>.</p>
 			</div>
 		</div>
 		<div class="row" id="programs">
