@@ -27,6 +27,7 @@
 						[PDF] | Direct Download
 					</a>
 				</li></ul>
+				<!-- For those sneaky folks who look at source code. ;)
 				<ul class="indent"><li>
 					<a href="https://hyperling.com/files/media/documents/resume.md"
 						target="_blank" rel="noopener noreferrer"
@@ -34,6 +35,7 @@
 						[Markdown] | Direct Download
 					</a>
 				</li></ul>
+				-->
 			</div>
 		</div>
 
