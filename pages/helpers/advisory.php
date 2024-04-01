@@ -20,6 +20,5 @@
 				<a href="/home/#tictactoe">new app</a>
 				in town,
 				<a href="/files/apks/TicTacToe.apk">Tic-Tac-Toe</a>!
-
 			</div>
 		</div>
