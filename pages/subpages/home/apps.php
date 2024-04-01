@@ -54,13 +54,6 @@
 							[<a href="https://github.com/Hyperling/TicTacToeAndroid"
 								target="_blank" rel="noopener noreferrer">GitHub</a>]
 						</p>
-						<!--<p>
-							TBD:
-							<s>
-								[<a target="_blank" rel="noopener noreferrer">F-Droid</a>]
-								[<a target="_blank" rel="noopener noreferrer">Github</a>]
-							</s>
-						</p>-->
 					</figcaption>
 				</figure>
 			</div>
