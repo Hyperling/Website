@@ -35,6 +35,37 @@
 		</div>
 
 		<div class="row text center">
+			<div class="col-12" id="tictactoe">
+				<figure>
+					<a href="/files/apks/TicTacToe.apk">
+						<img width="50%" height="50%" alt="tictactoe_image"
+							src="/files/media/icons/tictactoe.png"
+						/>
+						<figcaption>
+							<p>Tic-Tac-Toe</p>
+						</a>
+						<p>
+							Play against a friend or a range of AIs.
+							Written to practice Kotlin/Compose.
+						</p>
+						<p>
+							[<s><a>F-Droid</a></s>]
+							[<a href="/files/apks/TicTacToe.apk">APK</a>]
+							[<a href="https://github.com/Hyperling/TicTacToeAndroid"
+								target="_blank" rel="noopener noreferrer">GitHub</a>]
+						</p>
+						<!--<p>
+							TBD:
+							<s>
+								[<a target="_blank" rel="noopener noreferrer">F-Droid</a>]
+								[<a target="_blank" rel="noopener noreferrer">Github</a>]
+							</s>
+						</p>-->
+					</figcaption>
+				</figure>
+			</div>
+
+		<div class="row text center">
 			<div class="col-6" id="ctfu">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.carbupbeta"
