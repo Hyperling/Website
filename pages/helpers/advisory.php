@@ -8,13 +8,13 @@
 				<h2><i>Announcements</i></h2>
 			</div>
 			<div class="col-12 text">
-				2024-03-07
+				<u>2024-03-07</u>
 				<br/>
 				Find my free new eBook, "Hyperling's Health Protocol",
 				<a href="/health/">here</a>!
 			</div>
 			<div class="col-12 text">
-				2024-03-31
+				<u>2024-03-31</u>
 				<br/>
 				There's a
 				<a href="/home/#tictactoe">new app</a>
