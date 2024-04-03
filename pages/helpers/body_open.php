@@ -8,6 +8,6 @@
 <?php
 	include "banner.php";
 	include "menu.php";
-	if ($GLOBALS["ADVISORY"] !== false)
+	if (isset($GLOBALS["ADVISORY"]) && $GLOBALS["ADVISORY"] !== false)
 		include "advisory.php";
 ?>
