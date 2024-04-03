@@ -41,7 +41,7 @@ done
 # Ensure we are executing from this file's directory.
 cd $DIR
 
-echo "`date` - Check if any dependencies need installed."
+echo "`date` - Check if any system dependencies need installed."
 if [[ ! `which php` || ! `which node`|| ! `which npm` ]]; then
 	sudo apt install -y php-fpm nodejs npm 2>&1
 fi
@@ -57,7 +57,7 @@ find ./pages/ | while read file; do
 	chmod -c $mode $file 2>&1
 done
 
-echo "`date` - Check if any modules need updated/installed."
+echo "`date` - Check if any node modules need updated/installed."
 npm install 2>&1
 
 ## Main ##
