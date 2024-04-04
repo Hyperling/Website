@@ -42,8 +42,17 @@ done
 cd $DIR
 
 echo "`date` - Check if any system dependencies need installed."
-if [[ ! `which php` || ! `which node`|| ! `which npm` ]]; then
-	sudo apt install -y php-fpm nodejs npm 2>&1
+if [[ ! `which php` ]]; then
+	echo "- Installing PHP"
+	sudo apt install -y php-fpm 2>&1
+fi
+if [[ ! `which node` ]]; then
+	echo "- Installing Node"
+	sudo apt install -y nodejs 2>&1
+fi
+if [[ ! `which npm` ]]; then
+	echo "- Installing NPM"
+	sudo apt install -y npm 2>&1
 fi
 
 # Directories and allowed page types are executable, others are not.
