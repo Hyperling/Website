@@ -42,7 +42,7 @@ done
 cd $DIR
 
 sudo=""
-if [[ $LOGNAME != "root" ]];
+if [[ $LOGNAME != "root" ]]; then
 	sudo="sudo"
 fi
 
@@ -77,7 +77,7 @@ npm install 2>&1
 ## Main ##
 
 echo "`date` - Start website API."
-node ./main.js $ports 2>&1
+npm start -- $ports 2>&1
 status=$?
 
 ## Finish ##
