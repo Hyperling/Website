@@ -77,7 +77,7 @@ npm install 2>&1
 ## Main ##
 
 echo "`date` - Start website API."
-./main.js $ports 2>&1
+node ./main.js $ports 2>&1
 status=$?
 
 ## Finish ##
