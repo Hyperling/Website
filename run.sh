@@ -41,9 +41,24 @@ done
 # Ensure we are executing from this file's directory.
 cd $DIR
 
-echo "`date` - Check if any dependencies need installed."
-if [[ ! `which php` || ! `which node`|| ! `which npm` ]]; then
-	sudo apt install -y php-fpm nodejs npm
+sudo=""
+if [[ $LOGNAME != "root" ]]; then
+	echo "`date` - Using sudo since user is '$LOGNAME'."
+	sudo="sudo"
+fi
+
+echo "`date` - Check if any system dependencies need installed."
+if [[ ! `which php` ]]; then
+	echo "- Installing PHP"
+	$sudo apt-get install -y php-cli
+fi
+if [[ ! `which node` ]]; then
+	echo "- Installing Node"
+	$sudo apt-get install -y nodejs
+fi
+if [[ ! `which npm` ]]; then
+	echo "- Installing NPM"
+	$sudo apt-get install -y npm
 fi
 
 # Directories and allowed page types are executable, others are not.
@@ -57,13 +72,13 @@ find ./pages/ | while read file; do
 	chmod -c $mode $file
 done
 
-echo "`date` - Check if any modules need updated/installed."
+echo "`date` - Check if any node modules need updated/installed."
 npm install
 
 ## Main ##
 
 echo "`date` - Start website API."
-./main.js $ports
+node ./main.js $ports
 status=$?
 
 ## Finish ##
