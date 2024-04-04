@@ -72,8 +72,8 @@ find ./pages/ | while read file; do
 	chmod -c $mode $file
 done
 
-###echo "`date` - Check if any node modules need updated/installed."
-###npm install
+echo "`date` - Check if any node modules need updated/installed."
+npm install
 
 ## Main ##
 
