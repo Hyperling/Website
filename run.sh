@@ -50,7 +50,7 @@ fi
 echo "`date` - Check if any system dependencies need installed."
 if [[ ! `which php` ]]; then
 	echo "- Installing PHP"
-	$sudo apt-get install -y php-fpm
+	$sudo apt-get install -y php-cli
 fi
 if [[ ! `which node` ]]; then
 	echo "- Installing Node"
