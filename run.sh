@@ -43,6 +43,7 @@ cd $DIR
 
 sudo=""
 if [[ $LOGNAME != "root" ]]; then
+	echo "`date` - Using sudo since user is '$LOGNAME'."
 	sudo="sudo"
 fi
 
