@@ -49,15 +49,15 @@ fi
 echo "`date` - Check if any system dependencies need installed."
 if [[ ! `which php` ]]; then
 	echo "- Installing PHP"
-	$sudo apt install -y php-fpm 2>&1
+	$sudo apt install -y php-fpm
 fi
 if [[ ! `which node` ]]; then
 	echo "- Installing Node"
-	$sudo apt install -y nodejs 2>&1
+	$sudo apt install -y nodejs
 fi
 if [[ ! `which npm` ]]; then
 	echo "- Installing NPM"
-	$sudo apt install -y npm 2>&1
+	$sudo apt install -y npm
 fi
 
 # Directories and allowed page types are executable, others are not.
@@ -68,16 +68,16 @@ find ./pages/ | while read file; do
 	else
 		mode=644
 	fi
-	chmod -c $mode $file 2>&1
+	chmod -c $mode $file
 done
 
 echo "`date` - Check if any node modules need updated/installed."
-npm install 2>&1
+npm install
 
 ## Main ##
 
 echo "`date` - Start website API."
-npm start -- $ports 2>&1
+npm start -- $ports
 status=$?
 
 ## Finish ##
