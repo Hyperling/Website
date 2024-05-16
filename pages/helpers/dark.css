@@ -7,21 +7,24 @@
 				color: #CCCCCC;
 			}
 
-			a {
+			a,.orange {
 				color: #FF9900
 			}
 
-			h1,h2,h3,h4,h5,h6 {
+			h1,h2,h3,h4,h5,h6,.purple {
 				color: #663399;
 			}
 
-			.header {
-				/*background-color: #113311;*/
-				background-color: #222222;
+			.green {
+				color: #33CC33;
 			}
 
 			.title {
 				background-color: #111111;
+			}
+
+			.header {
+				background-color: #222222;
 			}
 
 			.text {

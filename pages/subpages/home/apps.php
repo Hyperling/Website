@@ -19,6 +19,7 @@
 				<p><a href="/resume/">My resume can be found here</a>.</p>
 			</div>
 		</div>
+
 		<div class="row" id="programs">
 			<h2 class="col-12 header">Public Programs</h2>
 		</div>
@@ -33,9 +34,8 @@
 		<div class="row" id="android">
 			<h3 class="col-12 header">Android Apps</h3>
 		</div>
-
-		<div class="row text center">
-			<div class="col-12" id="tictactoe">
+		<div class="row center">
+			<div class="col-12 text" id="tictactoe">
 				<figure>
 					<a href="/files/apks/TicTacToe.apk">
 						<img width="50%" height="50%" alt="tictactoe_image"
@@ -58,8 +58,8 @@
 				</figure>
 			</div>
 
-		<div class="row text center">
-			<div class="col-6" id="ctfu">
+		<div class="row center">
+			<div class="col-6 text" id="ctfu">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.carbupbeta"
 						target="_blank" rel="noopener noreferrer">
@@ -88,7 +88,7 @@
 				</figure>
 			</div>
 
-			<div class="col-6" id="timer">
+			<div class="col-6 text" id="timer">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.infinitetimer"
 						target="_blank" rel="noopener noreferrer"
@@ -119,8 +119,8 @@
 			</div>
 		</div>
 
-		<div class="row text center">
-			<div class="col-6" id="sleep">
+		<div class="row center">
+			<div class="col-6 text" id="sleep">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=com.hyperling.apps.the45minuterule"
 						target="_blank" rel="noopener noreferrer">
@@ -149,7 +149,7 @@
 				</figure>
 			</div>
 
-			<div class="col-6" id="games">
+			<div class="col-6 text" id="games">
 				<figure>
 					<a href="https://play.google.com/store/apps/details?id=apps.hyperling.com.platformer"
 						target="_blank" rel="noopener noreferrer"
