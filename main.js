@@ -214,6 +214,9 @@ async function main() {
 			case "html":
 				mime = "text/html";
 				break;
+			case "zip":
+				mime = "application/zip";
+				break;
 			default:
 				mime = "text/*";
 				break;
