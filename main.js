@@ -217,8 +217,11 @@ async function main() {
 			case "zip":
 				mime = "application/zip";
 				break;
-			default:
+			case "txt" || "csv" || "md":
 				mime = "text/*";
+				break;
+			default:
+				mime = "application/" + extension;
 				break;
 		}
 
