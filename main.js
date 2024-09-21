@@ -214,8 +214,14 @@ async function main() {
 			case "html":
 				mime = "text/html";
 				break;
-			default:
+			case "zip":
+				mime = "application/zip";
+				break;
+			case "txt" || "csv" || "md":
 				mime = "text/*";
+				break;
+			default:
+				mime = "application/" + extension;
 				break;
 		}
 
