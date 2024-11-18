@@ -44,9 +44,9 @@
 				</p>
 				<p>
 					I live within the boundaries known as "United States of America".
-					From birth to 2023 it was the subboundary "Indiana", and since
-					2023 it is the subboundary "Arizona". As of 2024 I am working to
-					realize my goal of being a nomad.
+					From birth to 2023 it was the subboundary "Indiana", from March
+					2023 to June 2024 it was the subboundary "Arizona", and in 2024 I
+					achieved my goal of becoming a nomad.
 				</p>
 			</div>
 		</div>
