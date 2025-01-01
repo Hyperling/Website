@@ -34,6 +34,7 @@
 						Odysee | HyperVegan Reposts
 					</a>
 				</li></ul>
+				<!-- 2025-01-01 Looks like Cahlen took it down.
 				<p>There is also a backup of my content on Modern Day Wizards:</p>
 				<ul class="indent"><li>
 					<a href="https://moderndaywizards.org/c/hypervegan"
@@ -42,6 +43,7 @@
 						Modern Day Wizards | HyperVegan
 					</a>
 				</li></ul>
+				-->
 			</div>
 		</div>
 
